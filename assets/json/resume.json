@@ -27,8 +27,7 @@
       "name": "Маквес Групп",
       "position": "Старший специалист по машинному обучению",
       "url": "https://makves.ru",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "startDate": "2023-01",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
       "highlights": ["Relativity"]
     }
@@ -45,7 +44,7 @@
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
-  "education": [
+  "образование": [
     {
       "institution": "University of Zurich, Zurich, Switzerland",
       "location": "Zurich, Switzerland",
