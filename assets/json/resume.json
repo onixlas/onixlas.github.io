@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Михаил Васильев",
+    "label": "Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "gnu.xinm@gmail.com",
+    "phone": "+7 (916) 198-81-83",
+    "url": "https://onixlas.github.io/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
@@ -24,9 +24,9 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
+      "name": "Маквес Групп",
+      "position": "Старший специалист по машинному обучению",
+      "url": "https://makves.ru",
       "startDate": "1933-01-01",
       "endDate": "1955-01-01",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
