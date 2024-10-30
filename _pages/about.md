@@ -1,6 +1,6 @@
 ---
 layout: about
-title: обо мне
+title: about
 permalink: /
 subtitle: Deep learning engineer. NLP, CV, anomaly detection
 
@@ -9,9 +9,8 @@ profile:
   image: mvasiljev.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href="https://t.me/LaHundo">@LaHundo</a></p>
+    <p><a href="mailto:gnu.xinm@gmail.com">gnu.xinm@gmail.com</a></p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
