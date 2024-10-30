@@ -1,6 +1,6 @@
 ---
 layout: about
-title: обо мне
+title: Обо мне
 permalink: /
 subtitle: Deep learning engineer. NLP, CV, anomaly detection
 

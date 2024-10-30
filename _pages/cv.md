@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: assets/pdf/Васильев_Михаил.pdf
-title: cv
+title: Резюме
 nav: true
 nav_order: 5
 ---
