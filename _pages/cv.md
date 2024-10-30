@@ -1,12 +1,7 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
+permalink: assets/pdf/Васильев_Михаил.pdf
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: Васильев_Михаил.pdf
-redirect: Васильев_Михаил.pdf
-description:
-toc:
-  sidebar: left
 ---
