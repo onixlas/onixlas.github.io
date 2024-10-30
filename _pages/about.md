@@ -26,5 +26,3 @@ social: true # includes social icons at the bottom of the page
 Закончил [Яндекс Практикум](https://practicum.yandex.ru/) и [Deep learning school ФПМИ МФТИ](https://dls.samcs.ru/).
 
 Я въедливый, умею замечать небольшие логические ошибки, обожаю интеллектуальные игры (квизы и т.д.), с удовольствием изучаю иностранные языки.
-
-
