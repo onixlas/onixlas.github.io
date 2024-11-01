@@ -8,13 +8,28 @@ category: образование
 related_publications: false
 ---
 
+TEXT 1
+
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/DLS_p1_simpsons/dls_p1_simpsons.ipynb' | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/DLS_p1_simpsons/dls_p1_simpsons.ipynb %}{% endcapture %}
-{% if notebook_exists == 'true' %}
+{% assign jupyter_path = "assets/jupyter/blog.ipynb" | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
 {% jupyter_notebook jupyter_path %}
 {% else %}
 
-  <p>Sorry, the notebook you are looking for does not exist.</p>
+<p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
+
+TEXT 2
+
+{::nomarkdown}
+{% assign jupyter_path = "assets/jupyter/DLS_cv_diploma_project.ipynb" | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/DLS_cv_diploma_project.ipynb %}{% endcapture %}
+{% if notebook_exists == "true" %}
+{% jupyter_notebook jupyter_path %}
+{% else %}
+
+<p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
