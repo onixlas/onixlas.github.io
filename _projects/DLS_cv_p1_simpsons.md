@@ -20,6 +20,16 @@ related_publications: false
 
 [(ноутбук с решением)](https://github.com/onixlas/DS_portfolio/blob/main/DLS_p1_simpsons/dls_p1_simpsons.ipynb)
 
+{::nomarkdown}
+{% assign jupyter_path = 'https://github.com/onixlas/DS_portfolio/blob/main/DLS_p1_simpsons/dls_p1_simpsons.ipynb' | absolute_url %}
+{% capture notebook_exists %}{% file_exists https://github.com/onixlas/DS_portfolio/blob/main/DLS_p1_simpsons/dls_p1_simpsons.ipynb %}{% endcapture %}
+{% if notebook_exists == 'true' %}
+  {% jupyter_notebook jupyter_path %}
+{% else %}
+  <p>Sorry, the notebook you are looking for does not exist.</p>
+{% endif %}
+{:/nomarkdown}
+
 # Выводы
 
 В данном проекте от нас требовалось обучить классификатор изображений персонажей мультсериала Симпсоны. В нашем распоряжении был набор из более чем 20 тысяч картинок. Метрика, по которой оценивается результат работы --- _F1_.
