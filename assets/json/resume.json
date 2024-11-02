@@ -1,19 +1,18 @@
 {
-  "basics": {
-    "name": "Михаил Васильев",
-    "label": "Data Scientist",
+  "основная информация": {
+    "имя": "Михаил Васильев",
+    "специальность": "Data Scientist",
     "image": "mvasiljev.jpg",
     "email": "gnu.xinm@gmail.com",
-    "phone": "+7 (916) 198-81-83",
-    "url": "https://onixlas.github.io/",
-    "summary": "Deep learning engineer, NLP, CV, anomaly detection",
+    "телефон": "+7 (916) 198-81-83",
+    "телеграм": "LaHundo",
+    "сайт": "https://onixlas.github.io/",
     "location": {
       "city": "Москва",
       "countryCode": "RU"
-    },
-    "profiles": []
+    }
   },
-  "work": [
+  "работа": [
     {
       "name": "Маквес Групп",
       "position": "старший специалист по машинному обучению",
@@ -88,7 +87,7 @@
       "courses": ["Анализ данных на языке SQL"]
     }
   ],
-  "certificates": [
+  "сертификаты": [
     {
       "name": "Поколение Python. Курс для продвинутых",
       "date": "2022-04-02",
@@ -168,7 +167,7 @@
       "url": "https://www.kaggle.com/learn/certification/salutonkielvifartas/feature-engineering"
     }
   ],
-  "languages": [
+  "языки": [
     {
       "language": "русский",
       "fluency": "родной"

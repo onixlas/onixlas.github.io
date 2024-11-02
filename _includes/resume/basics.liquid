@@ -13,12 +13,14 @@
         <b>{{ content[0] | capitalize }}</b>
       </td>
       <td class="p-1 pl-2 font-weight-light text">
-        {% if content[0] == 'url' %}
+        {% if content[0] == 'сайт' %}
           <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
         {% elsif content[0] == 'email' %}
           <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
-        {% elsif content[0] == 'phone' %}
+        {% elsif content[0] == 'телефон' %}
           <a href="tel:{{ content[1] }}">{{ content[1] }}</a>
+        {% elsif content[0] == 'телеграм' %}
+          <a href="https://telegram.me/{{ content[1] }}" target="_blank">@{{ content[1] }}</a>
         {% else %}
           {{ content[1] }}
         {% endif %}
