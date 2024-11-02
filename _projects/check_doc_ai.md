@@ -2,7 +2,7 @@
 layout: page
 title: CheckDocAI
 description: Телеграм-бот с ИИ модулем для контроля качества оформления документов
-img: https://github.com/user-attachments/assets/7afa470d-bedc-406a-88b2-d180f6933f8c
+img: assets/img/check_doc_ai_logo.png
 importance: 1
 category: "пет проекты"
 related_publications: false
@@ -12,7 +12,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://github.com/user-attachments/assets/7afa470d-bedc-406a-88b2-d180f6933f8c" title="Project logo" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/check_doc_ai_logo.png" title="Project logo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -23,8 +23,9 @@ related_publications: false
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mvasiljev.jpg" title="Михаил Васильев" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><b>Михаил Васильев</b>
+        <div class="caption">
             <ul>
+                <li><b>Михаил Васильев</b></li>
               <li>старший специалист по машинному обучению</li>
               <li><a href="https://makves.ru/">Маквес</a></li>
               <li><a href="https://t.me/LaHundo">@LaHundo</a></li>
@@ -34,8 +35,9 @@ related_publications: false
     </div>
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/jusuhinina.jpg" title="Юлия Сухинина" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><b>Юлия Сухинина</b>
+        <div class="caption">
             <ul>
+            <li><b>Юлия Сухинина</b></li>
               <li>руководитель по развитию</li>
               <li><a href="https://gulfstream.ru/">Гольфстрим</a></li>
               <li><a href="https://t.me/Sukhinina_Julia">@Sukhinina_Julia</a></li>
@@ -45,8 +47,9 @@ related_publications: false
     </div>
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/oivanova.jpg" title="Ольга Иванова" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><b>Ольга Иванова</b>
+        <div class="caption">
             <ul>
+            <li><b>Ольга Иванова</b></li>
               <li>инженер</li>
               <li><a href="https://msu.ru/">МГУ им. М.В. Ломоносова</a></li>
               <li><a href="https://t.me/oakarabut">@oakarabut</a></li>
@@ -56,9 +59,11 @@ related_publications: false
     </div>
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/vsemionov.jpg" title="Валерий Семёнов" class="img-fluid rounded z-depth-1" %}
-        <div class="caption"><b>Валерий Семёнов</b>
+        <div class="caption">
             <ul>
+                <li><b>Валерий Семёнов</b></li>
               <li>бекенд разработчик</li>
+              <li><a href="https://www.i-sol.ru/ru">Интеллектуальные решения</a></li>
               <li><a href="https://t.me/vivat7on">@vivat7on</a></li>
               <li>бекенд, DevOps</li>
             </ul>
@@ -78,4 +83,10 @@ yolo, albumentations, aiogram, cvat
 
 Решение развёрнуто и успешно используется АО «Гольфстрим охранные системы».
 
-[(репозиторий)](https://github.com/vivat-7on/TGaktBot) [(презентация)](./check_doc_ai.pdf)
+## Доклад
+
+По результатом проекта мы выступили с докладом на митапе [Moscow Python](https://moscowpython.ru/). Рассказали об идее проекта и сложностях, с которыми столкнулись в процессе разработки.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XK1WZvJNOLo?si=B2FO5kDw2y-DCbfq&amp;start=5881" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[(репозиторий)](https://github.com/vivat-7on/TGaktBot) [(презентация)](https://onixlas.github.io/DS_portfolio/presentations/check_doc_ai/check_doc_ai.pdf)
