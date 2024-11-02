@@ -4,7 +4,7 @@ title: Языковое моделирование
 description: В данном проекте мы будем заниматься языковым моделированием. Обучим несколько нейросетевых моделей предсказывать слова на основе предыдущего текста. Такие модели можно использовать и для генерации новых текстов, что мы также продемонстрируем.
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ameca_Generation_1.jpg/433px-Ameca_Generation_1.jpg
 importance: 1
-category: образование
+category: "учебные проекты DLS"
 related_publications: false
 pretty_table: true
 ---

@@ -4,7 +4,7 @@ title: Классификация изображений
 description: В этом задании нам необходимо классифицировать персонажей мультсериала «Симпсоны». Как известно, сериал идет более 25 лет, и за это время скопилось очень много видеоматериала. Персонажи менялись вместе с изменяющимися технологиями, и Гомер Симпсон-2023 не очень похож на Гомера Симпсона-1989.
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Homer_Simpson_graff.jpg/640px-Homer_Simpson_graff.jpg
 importance: 1
-category: образование
+category: "учебные проекты DLS"
 related_publications: false
 ---
 

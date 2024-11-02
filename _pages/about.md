@@ -17,12 +17,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Привет. Меня зовут Михаил Васильев. Я — Data Scientist. В репозитории [DS_portfolio](https://github.com/onixlas/DS_portfolio) вы можете ознакомиться с некоторыми моими проектами.
+Привет. Меня зовут Михаил Васильев. Я — data scientist, deep learning engineer.
 
-В настоящее время работаю в компании [Makves](https://makves.ru/).
-
-Большой опыт применения моделей глубокого обучения для решения задач CV и NLP. Также обучал классические ML-модели для задач anomaly detection в различных контекстах.
+Большой опыт применения моделей глубокого обучения для решения задач CV и NLP. Также обучаю классические ML-модели для задач anomaly detection в различных контекстах.
 
 Закончил [Яндекс Практикум](https://practicum.yandex.ru/) и [Deep learning school ФПМИ МФТИ](https://dls.samcs.ru/).
 
-Я въедливый, умею замечать небольшие логические ошибки, обожаю интеллектуальные игры (квизы и т.д.), с удовольствием изучаю иностранные языки.
+Мне нравится работать с данными, читать научные статьи, экспериментировать, пробовать различные подходы в обучении ML-моделей, строить графики.
+
+Въедливый, умею замечать небольшие логические ошибки, обожаю интеллектуальные игры, с удовольствием изучаю иностранные языки.
+
+Используемые технологии: python, transformers, EfficientNet, MobileNet, YOLO, PyOD, pandas, sklearn, pytorch, lightning, numpy, matplotlib, plotly, huggingface, onnx, fastapi, uvicorn, pyinstaller, pywin32, optimum, airflow, mlflow, cvat, natasha, deeppavlov, BERT, whisper, Ollama
+

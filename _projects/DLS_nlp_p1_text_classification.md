@@ -4,7 +4,7 @@ title: Классификация текстов
 description: На этот раз нам предстоит решить задачу классификации текстов. Мы будем использовать набор данных ag_news. Это датасет для классификации новостей на 4 темы — World, Sports, Business, Sci/Tech. Посмотрим, как с такой задачей справятся рекуррентные нейросети.
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Land_on_the_Moon_7_21_1969-repair.jpg/405px-Land_on_the_Moon_7_21_1969-repair.jpg
 importance: 1
-category: образование
+category: "учебные проекты DLS"
 related_publications: false
 pretty_table: true
 ---

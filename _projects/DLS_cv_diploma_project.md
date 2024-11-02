@@ -4,7 +4,7 @@ title: Распознавание лиц
 description: В этом проекте мы будем решать задачу распознавания лиц. Мы обучим нейросеть и поиграем с различными функциями потерь и метриками. Обучение будем производить на наборе данных CelebA dataset.
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Twemoji12_1f916.svg/480px-Twemoji12_1f916.svg.png
 importance: 1
-category: образование
+category: "учебные проекты DLS"
 related_publications: false
 pretty_table: true
 ---

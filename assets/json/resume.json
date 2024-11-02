@@ -93,86 +93,97 @@
       "name": "Поколение Python. Курс для продвинутых",
       "date": "2022-04-02",
       "issuer": "Stepik",
-      "url": "https://stepik.org/cert/1460043",
-      "icon": "fa-solid fa-tag"
+      "url": "https://stepik.org/cert/1460043"
     },
     {
       "name": "Поколение Python. Курс для профессионалов",
       "date": "2024-06-30",
       "issuer": "Stepik",
-      "url": "https://stepik.org/cert/2511973",
-      "icon": "fa-solid fa-tag"
+      "url": "https://stepik.org/cert/2511973"
     },
     {
       "name": "Добрый, добрый Python ООП",
       "date": "2023-05-21",
       "issuer": "Stepik",
-      "url": "https://stepik.org/cert/2071046",
-      "icon": "fa-solid fa-tag"
+      "url": "https://stepik.org/cert/2071046"
     },
     {
       "name": "Основы статистики",
       "date": "2022-06-02",
       "issuer": "Stepik",
-      "url": "https://stepik.org/cert/1535940",
-      "icon": "fa-solid fa-tag"
+      "url": "https://stepik.org/cert/1535940"
     },
     {
       "name": "Введение в Data Science и машинное обучение",
       "date": "2022-04-16",
       "issuer": "Stepik",
-      "url": "https://stepik.org/cert/1479747",
-      "icon": "fa-solid fa-tag"
+      "url": "https://stepik.org/cert/1479747"
     },
     {
       "name": "Data Science с Глебом Михайловым",
       "date": "2022-09-16",
       "issuer": "Stepik",
-      "url": "https://stepik.org/cert/1673640",
-      "icon": "fa-solid fa-tag"
+      "url": "https://stepik.org/cert/1673640"
     },
     {
       "name": "SQL для Анализа Данных с Глебом Михайловым",
       "date": "2022-11-06",
       "issuer": "Stepik",
-      "url": "https://stepik.org/cert/1753578",
-      "icon": "fa-solid fa-tag"
+      "url": "https://stepik.org/cert/1753578"
     },
     {
       "name": "Асинхронный Python",
       "date": "2024-09-22",
       "issuer": "Stepik",
-      "url": "https://stepik.org/cert/2585570",
-      "icon": "fa-solid fa-tag"
+      "url": "https://stepik.org/cert/2585570"
     },
     {
       "name": "MLOps Bootcamp",
       "date": "2023-10-20",
       "issuer": "ФКН НИУ ВШЭ",
-      "url": "https://github.com/onixlas/DS_portfolio/blob/main/certificates/hse_mlops.png",
-      "icon": "fa-solid fa-tag"
+      "url": "https://github.com/onixlas/DS_portfolio/blob/main/certificates/hse_mlops.png"
+    },
+    {
+      "name": "Intro to Machine Learning",
+      "date": "2022-05-28",
+      "issuer": "Kaggle",
+      "url": "https://www.kaggle.com/learn/certification/salutonkielvifartas/intro-to-machine-learning"
+    },
+    {
+      "name": "Intermediate Machine Learning",
+      "date": "2022-06-02",
+      "issuer": "Kaggle",
+      "url": "https://www.kaggle.com/learn/certification/salutonkielvifartas/intermediate-machine-learning"
+    },
+    {
+      "name": "Data Visualization",
+      "date": "2022-06-26",
+      "issuer": "Kaggle",
+      "url": "https://www.kaggle.com/learn/certification/salutonkielvifartas/data-visualization"
+    },
+    {
+      "name": "Feature Engineering",
+      "date": "2022-06-30",
+      "issuer": "Kaggle",
+      "url": "https://www.kaggle.com/learn/certification/salutonkielvifartas/feature-engineering"
     }
   ],
   "languages": [
     {
       "language": "русский",
-      "fluency": "родной",
-      "icon": ""
+      "fluency": "родной"
     },
     {
       "language": "английский",
-      "fluency": "свободно",
-      "icon": ""
+      "fluency": "B2"
     },
     {
       "language": "немецкий",
-      "fluency": "свободно",
-      "icon": ""
+      "fluency": "B2"
     },
     {
       "language": "эсперанто",
-      "fluency": "свободно",
-      "icon": ""
+      "fluency": "B2"
     }
   ]
 }
