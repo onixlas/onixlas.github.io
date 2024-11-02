@@ -6,9 +6,10 @@ img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Land_on_the_Moon_
 importance: 1
 category: образование
 related_publications: false
+pretty_table: true
 ---
 
-# Задача
+## Задача
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -20,11 +21,11 @@ related_publications: false
 
 Классификацию мы будем производить с помощью рекуррентных нейросетей. Мы попробуем применить различные архитектуры (`RNN`, `LSTM`, `GRU`), а также подберём гипер-параметры, чтобы повысить качество моделей. Сравнивать модели между собой будем по метрике `accuracy`.
 
-# Ноутбук
+## Ноутбук
 
 [(ноутбук проекта)](https://github.com/onixlas/DS_portfolio/blob/main/DLS_p5_text_classification/dls_p5_text_classification.ipynb)
 
-# Выводы
+## Выводы
 
 В ходе данной работы мы обучили несколько нейросетевых моделей, относящих англоязычные тексты новостей к одному из четырёх классов: `World, Sports, Business, Sci/Tech`. Для этого мы использовали набор данных `ag-news`. В данном наборе примеры всех классов сбалансированы (в обучающей выборке приведено по 30 тысяч примеров новостей каждого класса).
 

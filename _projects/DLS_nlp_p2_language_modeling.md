@@ -6,9 +6,10 @@ img: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ameca_Generation_
 importance: 1
 category: образование
 related_publications: false
+pretty_table: true
 ---
 
-# Задача
+## Задача
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -18,11 +19,11 @@ related_publications: false
 
 В данном проекте мы будем заниматься языковым моделированием. Обучим несколько нейросетевых моделей предсказывать слова на основе предыдущего текста. Такие модели можно будет использовать и для генерации текста. Качество предсказаний будем оценивать по [перплексии](https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D1%8F). Обучать модели будем на наборе данных, составленном из комментариев на сервисе [IMDB](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 
-# Ноутбук
+## Ноутбук
 
 [(ноутбук проекта)](https://github.com/onixlas/DS_portfolio/blob/main/DLS_p6_language_modeling/dls_p6_language_modeling.ipynb)
 
-# Выводы
+## Выводы
 
 В данном проекте мы решали задачу языкового моделирования. Мы обучили несколько нейросетевых моделей предсказывать слова на основе предыдущего текста. Качество предсказаний мы оценивали по [перплексии](https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%B8%D1%8F). Обучение моделей производилось на наборе данных, составленном из комментариев на сервисе [IMDB](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 

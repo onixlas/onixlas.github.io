@@ -6,9 +6,10 @@ img: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Typical_cnn.png/8
 importance: 1
 category: образование
 related_publications: false
+pretty_table: true
 ---
 
-# Задача
+## Задача
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,11 +28,11 @@ related_publications: false
 
 Также попробуем реализовать несколько функций потерь, чтобы оценить, насколько они влияют на конечный результат сегментации.
 
-# Ноутбук
+## Ноутбук
 
 [(ноутбук проекта)](https://github.com/onixlas/DS_portfolio/blob/main/DLS_p2_semantic_segmentation/dls_p2_semantic_segmentation.ipynb)
 
-# Выводы
+## Выводы
 
 В данном проекте мы решали задачу сегментации медицинских снимков. В нашем распоряжении датасет [_ADDI project_](https://www.fc.up.pt/addi/ph2%20database.html). В нём содержатся фотографии различных поражений кожи: меланомы и родинок.
 

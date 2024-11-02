@@ -6,9 +6,10 @@ img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Twemoji12_1f916.s
 importance: 1
 category: образование
 related_publications: false
+pretty_table: true
 ---
 
-# Задача
+## Задача
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -18,11 +19,11 @@ related_publications: false
 
 В этом проекте мы будем решать задачу распознавания лиц. Мы обучим нейросеть и поиграем с различными функциями потерь и метриками. Обучение будем производить на наборе данных [CelebA dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 
-# Ноутбук
+## Ноутбук
 
 [(ноутбук проекта)](https://github.com/onixlas/DS_portfolio/blob/main/DLS_cv_diploma_project/DLS_cv_diploma_project.ipynb)
 
-# Выводы
+## Выводы
 
 В этом проекте мы решали задачу распознавания лиц. В общем случае задача поиска и распознавания лиц решается в несколько этапов:
 
