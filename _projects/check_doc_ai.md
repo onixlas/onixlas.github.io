@@ -25,8 +25,9 @@ related_publications: false
         {% include figure.liquid loading="eager" path="assets/img/mvasiljev.jpg" title="Михаил Васильев" class="img-fluid rounded z-depth-1" %}
         <div class="caption"><b>Михаил Васильев</b>
             <ul>
-              <li>старший специалист по машинному обучению, <a href="https://makves.ru/">Маквес</a></li>
-              <li>Telegram: <a href="https://t.me/LaHundo">@LaHundo</a></li>
+              <li>старший специалист по машинному обучению</li>
+              <li><a href="https://makves.ru/">Маквес</a></li>
+              <li><a href="https://t.me/LaHundo">@LaHundo</a></li>
               <li>тим-лид и технический эксперт</li>
             </ul>
         </div>
@@ -35,8 +36,9 @@ related_publications: false
         {% include figure.liquid loading="eager" path="assets/img/jusuhinina.jpg" title="Юлия Сухинина" class="img-fluid rounded z-depth-1" %}
         <div class="caption"><b>Юлия Сухинина</b>
             <ul>
-              <li>руководитель по развитию, <a href="https://gulfstream.ru/">АО «Гольфстрим охранные системы»</a></li>
-              <li>Telegram: <a href="https://t.me/Sukhinina_Julia">@Sukhinina_Julia</a></li>
+              <li>руководитель по развитию</li>
+              <li><a href="https://gulfstream.ru/">Гольфстрим</a></li>
+              <li><a href="https://t.me/Sukhinina_Julia">@Sukhinina_Julia</a></li>
               <li>разметка данных, аугментации, обучение модели</li>
             </ul>
         </div>
@@ -45,8 +47,9 @@ related_publications: false
         {% include figure.liquid loading="eager" path="assets/img/oivanova.jpg" title="Ольга Иванова" class="img-fluid rounded z-depth-1" %}
         <div class="caption"><b>Ольга Иванова</b>
             <ul>
-              <li>инженер, <a href="https://msu.ru/">МГУ им. М.В. Ломоносова</a></li>
-              <li>Telegram: <a href="https://t.me/oakarabut">@oakarabut</a></li>
+              <li>инженер</li>
+              <li><a href="https://msu.ru/">МГУ им. М.В. Ломоносова</a></li>
+              <li><a href="https://t.me/oakarabut">@oakarabut</a></li>
               <li>разметка данных, аугментации</li>
             </ul>
         </div>
@@ -56,7 +59,7 @@ related_publications: false
         <div class="caption"><b>Валерий Семёнов</b>
             <ul>
               <li>бекенд разработчик</li>
-              <li>Telegram: <a href="https://t.me/vivat7on">@vivat7on</a></li>
+              <li><a href="https://t.me/vivat7on">@vivat7on</a></li>
               <li>бекенд, DevOps</li>
             </ul>
         </div>
