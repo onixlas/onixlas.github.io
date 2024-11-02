@@ -22,29 +22,48 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mvasiljev.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-    Михаил Васильев
-</div>
+        {% include figure.liquid loading="eager" path="assets/img/mvasiljev.jpg" title="Михаил Васильев" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"><b>Михаил Васильев</b>
+            <ul>
+              <li>старший специалист по машинному обучению, <a href="https://makves.ru/">Маквес</a></li>
+              <li>Telegram: <a href="https://t.me/LaHundo">@LaHundo</a></li>
+              <li>тим-лид и технический эксперт</li>
+            </ul>
+        </div>
     </div>
     <div class="col-sm mt-4 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/jusuhinina.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-    Юлия Сухинина
-</div>
+        {% include figure.liquid loading="eager" path="assets/img/jusuhinina.jpg" title="Юлия Сухинина" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"><b>Юлия Сухинина</b>
+            <ul>
+              <li>руководитель по развитию, <a href="https://gulfstream.ru/">АО «Гольфстрим охранные системы»</a></li>
+              <li>Telegram: <a href="https://t.me/Sukhinina_Julia">@Sukhinina_Julia</a></li>
+              <li>разметка данных, аугментации, обучение модели</li>
+            </ul>
+        </div>
+    </div>
     </div>
     <div class="col-sm mt-4 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/oivanova.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-    Ольга Иванова
-</div>
+        {% include figure.liquid loading="eager" path="assets/img/oivanova.jpg" title="Ольга Иванова" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"><b>Ольга Иванова</b>
+            <ul>
+              <li>инженер, <a href="https://msu.ru/">МГУ им. М.В. Ломоносова</a></li>
+              <li>Telegram: <a href="https://t.me/oakarabut">@oakarabut</a></li>
+              <li>разметка данных, аугментации</li>
+            </ul>
+        </div>
+    </div>
     </div>
     <div class="col-sm mt-4 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vsemionov.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/vsemionov.jpg" title="Валерий Семёнов" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"><b>Валерий Семёнов</b>
+            <ul>
+              <li>бекенд разработчик</li>
+              <li>Telegram: <a href="https://t.me/vivat7on">@vivat7on</a></li>
+              <li>бекенд, DevOps</li>
+            </ul>
+        </div>
     </div>
-    <div class="caption">
-    Валерий Семёнов
-</div>
+    </div>
 </div>
 
 ## Технологии
