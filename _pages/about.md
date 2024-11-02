@@ -28,4 +28,3 @@ social: true # includes social icons at the bottom of the page
 Въедливый, умею замечать небольшие логические ошибки, обожаю интеллектуальные игры, с удовольствием изучаю иностранные языки.
 
 Используемые технологии: python, transformers, EfficientNet, MobileNet, YOLO, PyOD, pandas, sklearn, pytorch, lightning, numpy, matplotlib, plotly, huggingface, onnx, fastapi, uvicorn, pyinstaller, pywin32, optimum, airflow, mlflow, cvat, natasha, deeppavlov, BERT, whisper, Ollama
-
