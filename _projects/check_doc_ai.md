@@ -77,7 +77,9 @@ yolo, albumentations, aiogram, cvat
 
 ## Решение
 
-Собрали собственный датасет с отсканированными Актами проверки. Произвели разметку датасета с использованием сервиса CVAT. Для каждого акта мы размечали проставленные печати, подписи, даты, а также номер акта. Произвели аугментацию датасета с использованием библиотеки albumentations. Обучили нейросеть YOLO v8.
+[(репозиторий)](https://github.com/vivat-7on/TGaktBot)
+
+Собрали собственный датасет с отсканированными Актами проверки. Произвели разметку датасета с использованием сервиса [CVAT](https://www.cvat.ai). Для каждого акта мы размечали проставленные печати, подписи, даты, а также номер акта. Произвели аугментацию датасета с использованием библиотеки [albumentations](https://albumentations.ai/). Обучили нейросеть [YOLO v8](https://www.ultralytics.com/).
 
 Для взаимодействия с пользователем реализовали телеграм-бота, принимающего на вход PDF-файл с отсканированными актами и возвращающего результаты проверки.
 
@@ -85,8 +87,8 @@ yolo, albumentations, aiogram, cvat
 
 ## Доклад
 
-По результатом проекта мы выступили с докладом на митапе [Moscow Python](https://moscowpython.ru/). Рассказали об идее проекта и сложностях, с которыми столкнулись в процессе разработки.
+По результатом проекта мы выступили с докладом на митапе [Moscow Python Meetup № 95](https://moscowpython.ru/meetup/95/). Рассказали об идее проекта и сложностях, с которыми столкнулись в процессе разработки.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XK1WZvJNOLo?si=B2FO5kDw2y-DCbfq&amp;start=5881" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[(репозиторий)](https://github.com/vivat-7on/TGaktBot) [(презентация)](https://onixlas.github.io/DS_portfolio/presentations/check_doc_ai/check_doc_ai.pdf)
+[(презентация)](https://onixlas.github.io/DS_portfolio/presentations/check_doc_ai/check_doc_ai.pdf)
