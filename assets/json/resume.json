@@ -19,8 +19,15 @@
       "position": "старший специалист по машинному обучению",
       "url": "https://makves.ru",
       "startDate": "2023-01",
-      "summary": "<p>Проект: создание комплексного решения для обеспечения безопасности в корпоративной сети на основе неструктурированных данных</p><p>Tools: python, transformers, EfficientNet, MobileNet, YOLO, PyOD, pandas, sklearn, pytorch, lightning, numpy, matplotlib, plotly, huggingface, onnx, fastapi, uvicorn, pyinstaller, pywin32, optimum, airflow, mlflow, cvat, natasha, deeppavlov, BERT, whisper, Ollama</p><p>Задачи:</p><ul><li>создал ансамбль алгоритмов для поиска аномалий на табличных данных, в том числе на временных рядах</li><li>реализовал нейросетевой модуль для поиска нарушений закона о персональных данных, количество детектируемых классов увеличено с 14 до 36, accuracy top 1 увеличена до 98.9</li><li>подготовил модуль для анализа содержимого отсканированных документов: поиск текста, таблиц, печатей, подписей и корпоративных бланков, количество классов увеличено с 5 до 19, mAP@.5 улучшен с .89 до .94</li><li>реализовал поиск чувствительных данных в текстовых файлах, добавил модуль NER</li><li>реализовал поиск чувствительных данных в аудио-файлах</li><li>собрал и организовал разметку 8 датасетов для задач классификации и object detection</li></ul>",
-      "highlights": []
+      "summary": "<p>Проект: создание комплексного решения для обеспечения безопасности в корпоративной сети на основе неструктурированных данных</p><p>Tools: python, transformers, EfficientNet, MobileNet, YOLO, PyOD, pandas, sklearn, pytorch, lightning, numpy, matplotlib, plotly, huggingface, onnx, fastapi, uvicorn, pyinstaller, pywin32, optimum, airflow, mlflow, cvat, natasha, deeppavlov, BERT, whisper, Ollama</p>",
+      "highlights": [
+        "создал ансамбль алгоритмов для поиска аномалий на табличных данных, в том числе на временных рядах",
+        "реализовал нейросетевой модуль для поиска нарушений закона о персональных данных, количество детектируемых классов увеличено с 14 до 36, accuracy top 1 увеличена до 98.9",
+        "подготовил модуль для анализа содержимого отсканированных документов: поиск текста, таблиц, печатей, подписей и корпоративных бланков, количество классов увеличено с 5 до 19, mAP@.5 улучшен с .89 до .94",
+        "реализовал поиск чувствительных данных в текстовых файлах, добавил модуль NER",
+        "реализовал поиск чувствительных данных в аудио-файлах",
+        "собрал и организовал разметку 8 датасетов для задач классификации и object detection"
+      ]
     }
   ],
   "education": [
@@ -79,6 +86,71 @@
       "studyType": "повышение квалификации",
       "endDate": "2024-10-11",
       "courses": ["Анализ данных на языке SQL"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Поколение Python. Курс для продвинутых",
+      "date": "2022-04-02",
+      "issuer": "Stepik",
+      "url": "https://stepik.org/cert/1460043",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Поколение Python. Курс для профессионалов",
+      "date": "2024-06-30",
+      "issuer": "Stepik",
+      "url": "https://stepik.org/cert/2511973",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Добрый, добрый Python ООП",
+      "date": "2023-05-21",
+      "issuer": "Stepik",
+      "url": "https://stepik.org/cert/2071046",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Основы статистики",
+      "date": "2022-06-02",
+      "issuer": "Stepik",
+      "url": "https://stepik.org/cert/1535940",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Введение в Data Science и машинное обучение",
+      "date": "2022-04-16",
+      "issuer": "Stepik",
+      "url": "https://stepik.org/cert/1479747",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Data Science с Глебом Михайловым",
+      "date": "2022-09-16",
+      "issuer": "Stepik",
+      "url": "https://stepik.org/cert/1673640",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "SQL для Анализа Данных с Глебом Михайловым",
+      "date": "2022-11-06",
+      "issuer": "Stepik",
+      "url": "https://stepik.org/cert/1753578",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Асинхронный Python",
+      "date": "2024-09-22",
+      "issuer": "Stepik",
+      "url": "https://stepik.org/cert/2585570",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "MLOps Bootcamp",
+      "date": "2023-10-20",
+      "issuer": "ФКН НИУ ВШЭ",
+      "url": "https://github.com/onixlas/DS_portfolio/blob/main/certificates/hse_mlops.png",
+      "icon": "fa-solid fa-tag"
     }
   ],
   "languages": [
