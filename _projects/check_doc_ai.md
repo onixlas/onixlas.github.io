@@ -41,7 +41,6 @@ related_publications: false
             </ul>
         </div>
     </div>
-    </div>
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/oivanova.jpg" title="Ольга Иванова" class="img-fluid rounded z-depth-1" %}
         <div class="caption"><b>Ольга Иванова</b>
@@ -52,7 +51,6 @@ related_publications: false
             </ul>
         </div>
     </div>
-    </div>
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/vsemionov.jpg" title="Валерий Семёнов" class="img-fluid rounded z-depth-1" %}
         <div class="caption"><b>Валерий Семёнов</b>
@@ -62,7 +60,6 @@ related_publications: false
               <li>бекенд, DevOps</li>
             </ul>
         </div>
-    </div>
     </div>
 </div>
 
