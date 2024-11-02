@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-Мы выступили с докладом о пет-проекте [CheckDocAI](projects/check_doc_ai/) на митапе [Moscow Python Meetup № 95](https://moscowpython.ru/meetup/95/). Рассказали об идее проекта и сложностях, с которыми столкнулись в процессе разработки.
+Мы выступили с докладом о пет-проекте [CheckDocAI](/projects/check_doc_ai/) на митапе [Moscow Python Meetup № 95](https://moscowpython.ru/meetup/95/). Рассказали об идее проекта и сложностях, с которыми столкнулись в процессе разработки.
 
 ---
 
