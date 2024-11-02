@@ -19,7 +19,7 @@
       "position": "старший специалист по машинному обучению",
       "url": "https://makves.ru",
       "startDate": "2023-01",
-      "summary": "",
+      "summary": "<p>Проект: создание комплексного решения для обеспечения безопасности в корпоративной сети на основе неструктурированных данных</p><br><p>Tools: python, transformers, EfficientNet, MobileNet, YOLO, PyOD, pandas, sklearn, pytorch, lightning, numpy, matplotlib, plotly, huggingface, onnx, fastapi, uvicorn, pyinstaller, pywin32, optimum, airflow, mlflow, cvat, natasha, deeppavlov, BERT, whisper, Ollama</p>",
       "highlights": []
     }
   ],
@@ -48,7 +48,7 @@
       "url": "https://practicum.yandex.ru/",
       "area": "Машинное обучение",
       "studyType": "профессиональная переподготовка",
-      "endDate": "2022",
+      "endDate": "2022-11-21",
       "courses": ["Специалист по Data Science"]
     },
     {
@@ -57,7 +57,7 @@
       "url": "https://dls.samcs.ru/",
       "area": "Deep Learning",
       "studyType": "профессиональная переподготовка",
-      "endDate": "2023",
+      "endDate": "2023-03",
       "courses": ["Computer Vision"]
     },
     {
@@ -66,7 +66,7 @@
       "url": "https://mai.ru/",
       "area": "Deep Learning",
       "studyType": "повышение квалификации",
-      "endDate": "2022",
+      "endDate": "2022-03-31",
       "courses": [
         "Введение в искусственный интеллект и нейросети для авиационных приложений"
       ]
@@ -77,7 +77,7 @@
       "url": "https://www.specialist.ru/",
       "area": "Анализ данных",
       "studyType": "повышение квалификации",
-      "endDate": "2024",
+      "endDate": "2024-10-11",
       "courses": ["Анализ данных на языке SQL"]
     }
   ],
