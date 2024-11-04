@@ -3,7 +3,7 @@ layout: page
 title: Автокодировщики
 description: В данном проекте наша задача — написать и обучить несколько вариантов автокодировщиков, оценить их свойства и применимость для различных задач. Для этого мы будем использовать датасеты лиц (LFW) и цифр (MNIST).
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Autoencoder_schema.png/528px-Autoencoder_schema.png
-importance: 1
+importance: 3
 category: "учебные проекты DLS"
 related_publications: false
 ---

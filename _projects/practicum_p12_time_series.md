@@ -3,7 +3,7 @@ layout: page
 title: Прогнозирование количества заказов такси на следующий час
 description: Компания такси собрала исторические данные о заказах такси в аэропортах. Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час. Строится модель для такого предсказания.
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cabs.jpg/640px-Cabs.jpg
-importance: 1
+importance: 12
 category: "учебные проекты Практикума"
 related_publications: false
 pretty_table: true

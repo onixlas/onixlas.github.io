@@ -3,7 +3,7 @@ layout: page
 title: GAN
 description: Мы обучим нейросеть генерировать лица людей и посмотрим на то, как можно оценивать качество генерации. В качестве обучающей выборки возьмём датасет Flickr-Faces.
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/GAN_deepfake_white_girl.jpg/480px-GAN_deepfake_white_girl.jpg
-importance: 1
+importance: 4
 category: "учебные проекты DLS"
 related_publications: false
 ---

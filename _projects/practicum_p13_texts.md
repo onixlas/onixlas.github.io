@@ -3,7 +3,7 @@ layout: page
 title: Обучение модели классификации комментариев
 description: Интернет-магазин запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Требуется инструмент, который будет искать токсичные комментарии и отправлять их на модерацию.
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/WikiText_blue.svg/480px-WikiText_blue.svg.png
-importance: 1
+importance: 13
 category: "учебные проекты Практикума"
 related_publications: false
 pretty_table: true
