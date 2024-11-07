@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 Большой опыт применения моделей глубокого обучения для решения задач CV и NLP. Также обучаю классические ML-модели для задач anomaly detection в различных контекстах.
 
-Закончил [Яндекс Практикум](https://practicum.yandex.ru/) и [Deep learning school ФПМИ МФТИ](https://dls.samcs.ru/).
+Выпускник и амбассадор [Яндекс Практикума](https://practicum.yandex.ru/), выпускник [Deep learning school ФПМИ МФТИ](https://dls.samcs.ru/).
 
 Мне нравится работать с данными, читать научные статьи, экспериментировать, пробовать различные подходы в обучении ML-моделей, строить графики.
 
