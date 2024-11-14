@@ -89,6 +89,6 @@ yolo, albumentations, aiogram, cvat
 
 По результатом проекта мы выступили с докладом на митапе [Moscow Python Meetup № 95](https://moscowpython.ru/meetup/95/). Рассказали об идее проекта и сложностях, с которыми столкнулись в процессе разработки.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XK1WZvJNOLo?si=B2FO5kDw2y-DCbfq&amp;start=5881" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gafaM5zT9L8?si=l0KkFGuhtFV134su" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 [(презентация)](https://onixlas.github.io/DS_portfolio/presentations/check_doc_ai/check_doc_ai.pdf)

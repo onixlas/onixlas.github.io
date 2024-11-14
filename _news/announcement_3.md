@@ -12,4 +12,4 @@ related_posts: false
 
 ## Видео на YouTube
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XK1WZvJNOLo?si=B2FO5kDw2y-DCbfq&amp;start=5881" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gafaM5zT9L8?si=l0KkFGuhtFV134su" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
