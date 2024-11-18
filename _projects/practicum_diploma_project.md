@@ -2,7 +2,7 @@
 layout: page
 title: Промышленная обработка стали
 description: Чтобы оптимизировать производственные расходы, металлургический комбинат ООО «Так закаляем сталь» решил уменьшить потребление электроэнергии на этапе обработки стали. Нам предстоит построить модель, которая предскажет температуру стали.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Steel_Melting_Process.jpg/303px-Steel_Melting_Process.jpg
+img: assets/img/steel-production.png
 importance: 1
 category: "учебные проекты Практикума"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Steel_Melting_Process.jpg/303px-Steel_Melting_Process.jpg" title="Afdmcc" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/steel-production.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

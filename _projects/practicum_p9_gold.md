@@ -2,7 +2,7 @@
 layout: page
 title: Исследование технологического процесса очистки золота
 description: Строится модель машинного обучения для промышленной компании, разрабатывающая решения для эффективной работы промышленных предприятий. Модель должна предсказать коэффициент восстановления золота из золотосодержащей руды на основе данных с параметрами добычи и очистки. Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gold_bullion_bars.jpg/640px-Gold_bullion_bars.jpg
+img: assets/img/gold-production.png
 importance: 7
 category: "учебные проекты Практикума"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gold_bullion_bars.jpg/640px-Gold_bullion_bars.jpg" title="Stevebidmead" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gold-production.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

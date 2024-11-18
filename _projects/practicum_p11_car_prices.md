@@ -2,7 +2,7 @@
 layout: page
 title: Построение модели определения стоимости автомобиля
 description: Сервис по продаже автомобилей с пробегом разрабатывает приложение для привлечения новых клиентов. В нём можно быстро узнать рыночную стоимость своего автомобиля. На основе исторические данные необходимо построить модель для определения стоимости автомобиля.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/1928_Model_A_Ford.jpg/579px-1928_Model_A_Ford.jpg
+img: assets/img/car-price.png
 importance: 5
 category: "учебные проекты Практикума"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/1928_Model_A_Ford.jpg/579px-1928_Model_A_Ford.jpg" title="Richard Smith" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/car-price.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

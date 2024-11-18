@@ -2,7 +2,7 @@
 layout: page
 title: Классификация изображений
 description: В этом задании нам необходимо классифицировать персонажей мультсериала «Симпсоны». Как известно, сериал идет более 25 лет, и за это время скопилось очень много видеоматериала. Персонажи менялись вместе с изменяющимися технологиями, и Гомер Симпсон-2023 не очень похож на Гомера Симпсона-1989.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Homer_Simpson_graff.jpg/640px-Homer_Simpson_graff.jpg
+img: assets/img/image-classfication.png
 importance: 7
 category: "учебные проекты DLS"
 related_publications: false
@@ -12,11 +12,11 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Homer_Simpson_graff.jpg/640px-Homer_Simpson_graff.jpg" title="jaroh" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/image-classfication.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-Сегодня нам предстоит помочь телекомпании _FOX_ в обработке их контента. Как известно, сериал "Симпсоны" идет на телеэкранах более 25 лет, и за это время скопилось очень много видеоматериала. Персонажи менялись вместе с изменяющимися графическими технологиями, и Гомер Симпсон-2018 не очень похож на Гомера Симпсона-1989. В этом задании нам необходимо классифицировать персонажей, проживающих в Спрингфилде.
+Сегодня нам предстоит помочь телекомпании _FOX_ в обработке их контента. Как известно, сериал «Симпсоны» идет на телеэкранах более 25 лет, и за это время скопилось очень много видеоматериала. Персонажи менялись вместе с изменяющимися графическими технологиями, и Гомер Симпсон-2018 не очень похож на Гомера Симпсона-1989. В этом задании нам необходимо классифицировать персонажей, проживающих в Спрингфилде.
 
 ## Ноутбук
 

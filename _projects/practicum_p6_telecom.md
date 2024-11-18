@@ -2,7 +2,7 @@
 layout: page
 title: Классификация клиентов телеком компании
 description: "Оператор мобильной связи выяснил: многие клиенты пользуются архивными тарифами. Они хотят построить систему, способную проанализировать поведение клиентов и предложить пользователям один из новых тарифов."
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Icons8_flat_cell_phone.svg/768px-Icons8_flat_cell_phone.svg.png
+img: assets/img/telecom-company.png
 importance: 10
 category: "учебные проекты Практикума"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Icons8_flat_cell_phone.svg/768px-Icons8_flat_cell_phone.svg.png" title="Icons8" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/telecom-company.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -2,7 +2,7 @@
 layout: page
 title: Обучение модели классификации комментариев
 description: Интернет-магазин запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Требуется инструмент, который будет искать токсичные комментарии и отправлять их на модерацию.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/WikiText_blue.svg/480px-WikiText_blue.svg.png
+img: assets/img/comments-classification.png
 importance: 3
 category: "учебные проекты Практикума"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/WikiText_blue.svg/480px-WikiText_blue.svg.png" title="Jmarchn" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/comments-classification.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -2,7 +2,7 @@
 layout: page
 title: Классификация текстов
 description: На этот раз нам предстоит решить задачу классификации текстов. Мы будем использовать набор данных ag_news. Это датасет для классификации новостей на 4 темы — World, Sports, Business, Sci/Tech. Посмотрим, как с такой задачей справятся рекуррентные нейросети.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Land_on_the_Moon_7_21_1969-repair.jpg/405px-Land_on_the_Moon_7_21_1969-repair.jpg
+img: assets/img/news-classification.png
 importance: 3
 category: "учебные проекты DLS"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Land_on_the_Moon_7_21_1969-repair.jpg/405px-Land_on_the_Moon_7_21_1969-repair.jpg" title="Jack Weir (1928-2005)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/news-classification.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

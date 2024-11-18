@@ -2,7 +2,7 @@
 layout: page
 title: Автокодировщики
 description: В данном проекте наша задача — написать и обучить несколько вариантов автокодировщиков, оценить их свойства и применимость для различных задач. Для этого мы будем использовать датасеты лиц (LFW) и цифр (MNIST).
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Autoencoder_schema.png/528px-Autoencoder_schema.png
+img: assets/img/digits.png
 importance: 5
 category: "учебные проекты DLS"
 related_publications: false
@@ -12,7 +12,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Autoencoder_schema.png/528px-Autoencoder_schema.png" title="Michela Massi" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/digits.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

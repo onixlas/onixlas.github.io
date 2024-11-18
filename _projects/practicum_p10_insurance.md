@@ -2,7 +2,7 @@
 layout: page
 title: Защита данных клиентов страховой компании
 description: Необходимо защитить данные клиентов страховой компании «Хоть потоп». Разработаем такой метод преобразования данных, чтобы по ним было сложно восстановить персональную информацию. Обоснуем корректность его работы. Нужно защитить данные, чтобы при преобразовании качество моделей машинного обучения не ухудшилось. Подбирать наилучшую модель не требуется.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cybersecurity.png/640px-Cybersecurity.png
+img: assets/img/insurance-company-data.png
 importance: 6
 category: "учебные проекты Практикума"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cybersecurity.png/640px-Cybersecurity.png" title="jaydeep_" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/insurance-company-data.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

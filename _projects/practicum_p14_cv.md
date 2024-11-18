@@ -2,7 +2,7 @@
 layout: page
 title: Определение возраста по фотографиям
 description: Сетевой супермаркет «Хлеб-Соль» внедряет систему компьютерного зрения для обработки фотографий покупателей. Необходимо построить модель, которая по фотографии определит приблизительный возраст человека. В нашем распоряжении набор фотографий людей с указанием возраста.
-img: https://upload.wikimedia.org/wikipedia/commons/3/33/Human_ageing.jpg
+img: assets/img/age-detection.png
 importance: 2
 category: "учебные проекты Практикума"
 related_publications: false
@@ -12,7 +12,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/3/33/Human_ageing.jpg" title="Rebelo-Marques, De Sousa Lages, Andrade, Ribeiro, Mota-Pinto, Carrilho and Espregueira-Mendes" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/age-detection.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

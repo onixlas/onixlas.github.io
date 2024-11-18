@@ -2,7 +2,7 @@
 layout: page
 title: Языковое моделирование
 description: В данном проекте мы будем заниматься языковым моделированием. Обучим несколько нейросетевых моделей предсказывать слова на основе предыдущего текста. Такие модели можно использовать и для генерации новых текстов, что мы также продемонстрируем.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ameca_Generation_1.jpg/433px-Ameca_Generation_1.jpg
+img: assets/img/language-modelling.png
 importance: 2
 category: "учебные проекты DLS"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ameca_Generation_1.jpg/433px-Ameca_Generation_1.jpg" title="Willy Jackson" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/language-modelling.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

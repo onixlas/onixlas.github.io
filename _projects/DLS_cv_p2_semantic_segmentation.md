@@ -2,7 +2,7 @@
 layout: page
 title: Семантическая сегментация
 description: Мы будем решить задачу сегментации медицинских снимков. В нашем распоряжении датасет ADDI project. В нём содержатся фотографии различных поражений кожи. Однако мы будем заниматься не классификацией, а сегментацией изображений, т.е. разделением изображений на несколько сегментов для упрощения последующего анализа и обработки.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Typical_cnn.png/800px-Typical_cnn.png
+img: assets/img/skin-problem-detection.png
 importance: 6
 category: "учебные проекты DLS"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Typical_cnn.png/800px-Typical_cnn.png" title="Aphex34" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/skin-problem-detection.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

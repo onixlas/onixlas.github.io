@@ -2,7 +2,7 @@
 layout: page
 title: Определение наиболее выгодного региона нефтедобычи
 description: Нам предоставлены пробы нефти в трёх регионах. Характеристики для каждой скважины в регионе уже известны. Необходимо построить модель для определения региона, где добыча принесёт наибольшую прибыль.
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cromarty_Firth_Oil_Rigs_%2846600042654%29.jpg/640px-Cromarty_Firth_Oil_Rigs_%2846600042654%29.jpg
+img: assets/img/oil-rig.png
 importance: 8
 category: "учебные проекты Практикума"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Cromarty_Firth_Oil_Rigs_%2846600042654%29.jpg/640px-Cromarty_Firth_Oil_Rigs_%2846600042654%29.jpg" title="joiseyshowaa" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/oil-rig.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

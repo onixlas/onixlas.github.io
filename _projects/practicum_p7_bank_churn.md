@@ -2,7 +2,7 @@
 layout: page
 title: Прогнозирование оттока клиента банка
 description: "Из банка стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых. Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Предоставлены исторические данные о поведении клиентов и расторжении договоров с банком."
-img: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bank_account_-_The_Noun_Project.svg/480px-Bank_account_-_The_Noun_Project.svg.png
+img: assets/img/bank-clients.png
 importance: 9
 category: "учебные проекты Практикума"
 related_publications: false
@@ -13,7 +13,7 @@ pretty_table: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bank_account_-_The_Noun_Project.svg/480px-Bank_account_-_The_Noun_Project.svg.png" title="Consumer Financial Protection Bureau" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bank-clients.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
