@@ -48,8 +48,8 @@ related_publications: false
         <div class="caption">
             <ul>
             <li><b>Ольга Иванова</b></li>
-              <li>инженер</li>
-              <li><a href="https://msu.ru/">МГУ им. М.В. Ломоносова</a></li>
+              <li>data scientist</li>
+              <li>open to work</li>
               <li><a href="https://t.me/oakarabut">@oakarabut</a></li>
             </ul>
         </div>

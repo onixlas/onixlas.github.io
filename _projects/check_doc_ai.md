@@ -2,7 +2,7 @@
 layout: page
 title: CheckDocAI
 description: Телеграм-бот с ИИ модулем для контроля качества оформления документов
-img: assets/img/check_doc_ai_logo.png
+img: assets/img/document-checking-bot.png
 importance: 1
 category: "пет проекты"
 related_publications: false
