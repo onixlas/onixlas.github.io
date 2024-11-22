@@ -59,8 +59,8 @@ related_publications: false
         <div class="caption">
             <ul>
                 <li><b>Анастасия Юдина</b></li>
-              <li>data scientist (NLP)</li>
-              <li><a href="https://www.sberbank.ru/">Сбер</a></li>
+              <li>эксперт по исследованию данных</li>
+              <li>Сбер</li>
               <li><a href="https://t.me/hug_asya02">@hug_asya02</a></li>
             </ul>
         </div>
