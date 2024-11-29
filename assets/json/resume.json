@@ -45,6 +45,59 @@
       "url": "https://onixlas.github.io/projects/check_doc_ai/"
     }
   ],
+  "технологии": [
+    {
+      "name": "Deep Learning",
+      "keywords": ["PyTorch", "Lightning", "ONNX", "HuggingFace", "Optimum"]
+    },
+    {
+      "name": "NLP, NER",
+      "keywords": [
+        "Ollama",
+        "Label Studio",
+        "transformers",
+        "deeppavlov",
+        "natasha",
+        "yargy parser"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "keywords": ["YOLO", "CVAT"]
+    },
+    {
+      "name": "Speech Recognition",
+      "keywords": ["whisper"]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": ["scikit-learn", "CatBoost", "XGBoost", "faiss"]
+    },
+    {
+      "name": "Anomaly Detection",
+      "keywords": ["PyOD", "PySAD"]
+    },
+    {
+      "name": "Data analysis",
+      "keywords": ["python", "SQL", "pandas", "polars"]
+    },
+    {
+      "name": "Data visualisation",
+      "keywords": ["seaborn", "matplotlib", "plotly"]
+    },
+    {
+      "name": "MLOps & Deployment",
+      "keywords": [
+        "MLFlow",
+        "AirFlow",
+        "Docker",
+        "Linux",
+        "FastAPI",
+        "pywin32",
+        "uvicorn"
+      ]
+    }
+  ],
   "выступления": [
     {
       "name": "Опыт обучения и применения нейросетей в качестве модуля российской DCAP системы",
@@ -103,7 +156,9 @@
       "studyType": "повышение квалификации",
       "startDate": "2021-10",
       "endDate": "2022-03",
-      "courses": ["Введение в искусственный интеллект и нейросети для авиационных приложений"]
+      "courses": [
+        "Введение в искусственный интеллект и нейросети для авиационных приложений"
+      ]
     },
     {
       "institution": "УЦ «Специалист»",
