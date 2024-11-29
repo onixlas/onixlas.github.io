@@ -51,28 +51,28 @@
       "keywords": ["PyTorch", "Lightning", "ONNX", "HuggingFace", "Optimum"]
     },
     {
-      "name": "NLP, NER",
-      "keywords": ["Ollama", "Label Studio", "transformers", "deeppavlov", "natasha", "yargy parser", "bert"]
+      "name": "NLP",
+      "keywords": ["Ollama", "Label Studio", "transformers", "deeppavlov", "natasha", "yargy parser"]
     },
     {
       "name": "Computer Vision",
       "keywords": ["object detection", "segmentation", "autoencoders", "UNet", "YOLO", "CVAT", "EfficientNet", "MobileNet"]
     },
     {
-      "name": "Audio",
-      "keywords": ["whisper", "hubert", "Common Voice"]
+      "name": "Anomaly Detection",
+      "keywords": ["PyOD", "PySAD", "ECOD", "HBOS", "iForest", "Exact-STORM", "Half-space Trees", "RRCF"]
     },
     {
       "name": "Machine Learning",
       "keywords": ["scikit-learn", "CatBoost", "XGBoost", "faiss"]
     },
     {
-      "name": "Anomaly Detection",
-      "keywords": ["PyOD", "PySAD", "ECOD", "HBOS", "iForest", "Exact-STORM", "Half-space Trees", "RRCF"]
-    },
-    {
       "name": "Data analysis",
       "keywords": ["python", "SQL", "PostgreSQL", "MySQL", "pandas", "polars"]
+    },
+    {
+      "name": "Audio",
+      "keywords": ["whisper", "hubert", "Common Voice"]
     },
     {
       "name": "Data visualisation",
