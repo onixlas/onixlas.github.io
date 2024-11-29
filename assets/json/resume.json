@@ -52,22 +52,15 @@
     },
     {
       "name": "NLP, NER",
-      "keywords": [
-        "Ollama",
-        "Label Studio",
-        "transformers",
-        "deeppavlov",
-        "natasha",
-        "yargy parser"
-      ]
+      "keywords": ["Ollama", "Label Studio", "transformers", "deeppavlov", "natasha", "yargy parser", "bert"]
     },
     {
       "name": "Computer Vision",
-      "keywords": ["YOLO", "CVAT"]
+      "keywords": ["object detection", "segmentation", "autoencoders", "UNet", "YOLO", "CVAT", "EfficientNet", "MobileNet"]
     },
     {
-      "name": "Speech Recognition",
-      "keywords": ["whisper"]
+      "name": "Audio",
+      "keywords": ["whisper", "hubert", "Common Voice"]
     },
     {
       "name": "Machine Learning",
@@ -75,11 +68,11 @@
     },
     {
       "name": "Anomaly Detection",
-      "keywords": ["PyOD", "PySAD"]
+      "keywords": ["PyOD", "PySAD", "ECOD", "HBOS", "iForest", "Exact-STORM", "Half-space Trees", "RRCF"]
     },
     {
       "name": "Data analysis",
-      "keywords": ["python", "SQL", "pandas", "polars"]
+      "keywords": ["python", "SQL", "PostgreSQL", "MySQL", "pandas", "polars"]
     },
     {
       "name": "Data visualisation",
@@ -87,15 +80,7 @@
     },
     {
       "name": "MLOps & Deployment",
-      "keywords": [
-        "MLFlow",
-        "AirFlow",
-        "Docker",
-        "Linux",
-        "FastAPI",
-        "pywin32",
-        "uvicorn"
-      ]
+      "keywords": ["MLFlow", "AirFlow", "Docker", "Linux", "FastAPI", "pywin32", "uvicorn", "pyinstaller"]
     }
   ],
   "выступления": [
@@ -156,9 +141,7 @@
       "studyType": "повышение квалификации",
       "startDate": "2021-10",
       "endDate": "2022-03",
-      "courses": [
-        "Введение в искусственный интеллект и нейросети для авиационных приложений"
-      ]
+      "courses": ["Введение в искусственный интеллект и нейросети для авиационных приложений"]
     },
     {
       "institution": "УЦ «Специалист»",
