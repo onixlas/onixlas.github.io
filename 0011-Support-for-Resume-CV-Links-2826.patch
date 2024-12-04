@@ -1,0 +1,52 @@
+From c5d484ec9faa6adb070e3162b5ff41b98163794b Mon Sep 17 00:00:00 2001
+From: Pranjal Aggarwal <54495980+pranjalagg@users.noreply.github.com>
+Date: Mon, 2 Dec 2024 20:35:59 -0700
+Subject: [PATCH 11/20] Support for Resume/CV Links (#2826)
+
+Solves #2825
+---
+ _layouts/cv.liquid | 11 ++++++++---
+ _pages/cv.md       |  2 +-
+ 2 files changed, 9 insertions(+), 4 deletions(-)
+
+diff --git a/_layouts/cv.liquid b/_layouts/cv.liquid
+index 0ce33a07..88dac2a1 100644
+--- a/_layouts/cv.liquid
++++ b/_layouts/cv.liquid
+@@ -54,12 +54,17 @@ layout: default
+         {{ page.title }}
+         {% if page.cv_pdf %}
+           <a
+-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
++            {% if page.cv_pdf contains '://' %}
++              href="{{ page.cv_pdf }}"
++            {% else %}
++              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
++            {% endif %}
+             target="_blank"
+             rel="noopener noreferrer"
+             class="float-right"
+-            ><i class="fa-solid fa-file-pdf"></i
+-          ></a>
++          >
++            <i class="fa-solid fa-file-pdf"></i>
++          </a>
+         {% endif %}
+       </h1>
+       {% if page.description %}
+diff --git a/_pages/cv.md b/_pages/cv.md
+index ad3e26dd..f13f402d 100644
+--- a/_pages/cv.md
++++ b/_pages/cv.md
+@@ -4,7 +4,7 @@ permalink: /cv/
+ title: cv
+ nav: true
+ nav_order: 5
+-cv_pdf: example_pdf.pdf
++cv_pdf: example_pdf.pdf # you can also use external links here
+ description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+ toc:
+   sidebar: left
+-- 
+2.48.1
+

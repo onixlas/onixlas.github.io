@@ -1,0 +1,183 @@
+From b0d70d4dd6db8920aaddb0c2d0abcab15b85dc78 Mon Sep 17 00:00:00 2001
+From: "dependabot[bot]" <49699333+dependabot[bot]@users.noreply.github.com>
+Date: Thu, 28 Nov 2024 15:52:10 -0300
+Subject: [PATCH 06/20] Bump rexml from 3.3.8 to 3.3.9 (#2814)
+
+Bumps [rexml](https://github.com/ruby/rexml) from 3.3.8 to 3.3.9.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href="https://github.com/ruby/rexml/releases">rexml's
+releases</a>.</em></p>
+<blockquote>
+<h2>REXML 3.3.9 - 2024-10-24</h2>
+<h3>Improvements</h3>
+<ul>
+<li>Improved performance.
+<ul>
+<li><a
+href="https://redirect.github.com/ruby/rexml/issues/210">GH-210</a></li>
+<li>Patch by NAITOH Jun.</li>
+</ul>
+</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>
+<p>Fixed a parse bug for text only invalid XML.</p>
+<ul>
+<li><a
+href="https://redirect.github.com/ruby/rexml/issues/215">GH-215</a></li>
+<li>Patch by NAITOH Jun.</li>
+</ul>
+</li>
+<li>
+<p>Fixed a parse bug that <code>&amp;#0x...;</code> is accepted as a
+character
+reference.</p>
+</li>
+</ul>
+<h3>Thanks</h3>
+<ul>
+<li>NAITOH Jun</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a
+href="https://github.com/ruby/rexml/blob/master/NEWS.md">rexml's
+changelog</a>.</em></p>
+<blockquote>
+<h2>3.3.9 - 2024-10-24 {#version-3-3-9}</h2>
+<h3>Improvements</h3>
+<ul>
+<li>Improved performance.
+<ul>
+<li><a
+href="https://redirect.github.com/ruby/rexml/issues/210">GH-210</a></li>
+<li>Patch by NAITOH Jun.</li>
+</ul>
+</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>
+<p>Fixed a parse bug for text only invalid XML.</p>
+<ul>
+<li><a
+href="https://redirect.github.com/ruby/rexml/issues/215">GH-215</a></li>
+<li>Patch by NAITOH Jun.</li>
+</ul>
+</li>
+<li>
+<p>Fixed a parse bug that <code>&amp;#0x...;</code> is accepted as a
+character
+reference.</p>
+</li>
+</ul>
+<h3>Thanks</h3>
+<ul>
+<li>NAITOH Jun</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href="https://github.com/ruby/rexml/commit/38eaa86ac7abe0d31cf49d8df57ad239fdeb80e9"><code>38eaa86</code></a>
+Add 3.3.9 entry</li>
+<li><a
+href="https://github.com/ruby/rexml/commit/ce59f2eb1aeb371fe1643414f06618dbe031979f"><code>ce59f2e</code></a>
+parser: fix a bug that &amp;#0x...; is accepted as a character
+reference</li>
+<li><a
+href="https://github.com/ruby/rexml/commit/a09646d395a07399cbf9bc3bc8d6d8bb1d13ecea"><code>a09646d</code></a>
+test: fix indent</li>
+<li><a
+href="https://github.com/ruby/rexml/commit/cf0fb9c9ca3dc0d725c8e4644aa0e728025f42ce"><code>cf0fb9c</code></a>
+Fix <code>IOSource#readline</code> for <code>@pending_buffer</code> (<a
+href="https://redirect.github.com/ruby/rexml/issues/215">#215</a>)</li>
+<li><a
+href="https://github.com/ruby/rexml/commit/1d0c362526f6e25e2abcd13e2fcefcc718c20e78"><code>1d0c362</code></a>
+Optimize <code>IOSource#read_until</code> method (<a
+href="https://redirect.github.com/ruby/rexml/issues/210">#210</a>)</li>
+<li><a
+href="https://github.com/ruby/rexml/commit/622011f25ac1519fd553d6c56da52d7eba14a787"><code>622011f</code></a>
+Bump version</li>
+<li>See full diff in <a
+href="https://github.com/ruby/rexml/compare/v3.3.8...v3.3.9">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility
+score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=rexml&package-manager=bundler&previous-version=3.3.8&new-version=3.3.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't
+alter it yourself. You can also trigger a rebase manually by commenting
+`@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after
+your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge
+and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating
+it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all
+of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop
+Dependabot creating any more for this major version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop
+Dependabot creating any more for this minor version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop
+Dependabot creating any more for this dependency (unless you reopen the
+PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the
+[Security Alerts
+page](https://github.com/alshedivat/al-folio/network/alerts).
+
+</details>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+---
+ Gemfile.lock | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Gemfile.lock b/Gemfile.lock
+index d5b00b68..60bbb861 100644
+--- a/Gemfile.lock
++++ b/Gemfile.lock
+@@ -195,7 +195,7 @@ GEM
+     rb-fsevent (0.11.2)
+     rb-inotify (0.11.1)
+       ffi (~> 1.0)
+-    rexml (3.3.8)
++    rexml (3.3.9)
+     rouge (4.4.0)
+     safe_yaml (1.0.5)
+     sass-embedded (1.80.3-aarch64-linux-gnu)
+-- 
+2.48.1
+

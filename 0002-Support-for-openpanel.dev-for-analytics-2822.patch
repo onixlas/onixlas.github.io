@@ -1,0 +1,58 @@
+From b7ee266824c6cfa53cd63d876ab1fe4ce9ddd9a9 Mon Sep 17 00:00:00 2001
+From: Abderrahmane Ait gueni ssaid
+ <45363061+aaitguenissaid@users.noreply.github.com>
+Date: Sun, 10 Nov 2024 17:28:30 +0100
+Subject: [PATCH 02/20] Support for openpanel.dev for analytics (#2822)
+
+---
+ _config.yml                        |  2 ++
+ _includes/scripts/analytics.liquid | 16 ++++++++++++++++
+ 2 files changed, 18 insertions(+)
+
+diff --git a/_config.yml b/_config.yml
+index b17f37e5..659e9699 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -124,6 +124,7 @@ contact_note: >
+ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
+ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
++openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+ 
+ # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
+ google_site_verification: # your google-site-verification ID (Google Search Console)
+@@ -428,6 +429,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
+ enable_google_analytics: false # enables google analytics
+ enable_cronitor_analytics: false # enables cronitor RUM analytics
+ enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
++enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
+ enable_google_verification: false # enables google site verification
+ enable_bing_verification: false # enables bing site verification
+ enable_masonry: true # enables automatic project cards arrangement
+diff --git a/_includes/scripts/analytics.liquid b/_includes/scripts/analytics.liquid
+index d0405282..2b9b1223 100644
+--- a/_includes/scripts/analytics.liquid
++++ b/_includes/scripts/analytics.liquid
+@@ -30,3 +30,19 @@
+     data-code="{{ site.pirsch_analytics }}"
+   ></script>
+ {% endif %}
++{% if site.enable_openpanel_analytics %}
++  <script>
++    window.op =
++      window.op ||
++      function (...args) {
++        (window.op.q = window.op.q || []).push(args);
++      };
++    window.op('init', {
++      clientId: '{{ site.openpanel_analytics }}',
++      trackScreenViews: true,
++      trackOutgoingLinks: true,
++      trackAttributes: true,
++    });
++  </script>
++  <script src="https://openpanel.dev/op1.js" defer async></script>
++{% endif %}
+-- 
+2.48.1
+
