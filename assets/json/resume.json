@@ -56,7 +56,7 @@
     },
     {
       "name": "Computer Vision",
-      "keywords": ["object detection", "segmentation", "autoencoders", "UNet", "YOLO", "CVAT", "EfficientNet", "MobileNet"]
+      "keywords": ["object detection", "segmentation", "autoencoders", "UNet", "YOLO", "CVAT", "OpenCV", "PIL"]
     },
     {
       "name": "Anomaly Detection",
