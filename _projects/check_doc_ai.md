@@ -73,7 +73,7 @@ related_publications: false
 
 ## Технологии
 
-yolo, albumentations, aiogram, cvat
+`yolo`, `albumentations`, `aiogram`, `cvat`
 
 ## Решение
 
@@ -87,7 +87,7 @@ yolo, albumentations, aiogram, cvat
 
 ## Доклад
 
-По результатом проекта я выступил с докладом на митапе [Moscow Python Meetup № 95](https://moscowpython.ru/meetup/95/). Рассказали об идее проекта и сложностях, с которыми столкнулись в процессе разработки.
+По результатом проекта мы выступили с докладом на митапе [Moscow Python Meetup № 95](https://moscowpython.ru/meetup/95/). Рассказали об идее проекта и сложностях, с которыми столкнулись в процессе разработки.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gafaM5zT9L8?si=l0KkFGuhtFV134su" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
