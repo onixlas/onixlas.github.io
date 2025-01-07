@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: ["работа", "пет проекты", "хакатоны", "учебные проекты DLS", "учебные проекты Практикума"]
+display_categories: ["доклады", "пет проекты", "хакатоны", "учебные проекты DLS", "учебные проекты Практикума"]
 horizontal: false
 ---
 
