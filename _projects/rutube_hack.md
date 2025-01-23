@@ -80,7 +80,7 @@ related_publications: false
 
 ## Технологии
 
-gpt, mistral nemo, fastapi, aiogram
+`gpt`, `mistral nemo`, `fastapi`, `aiogram`
 
 ## Решение
 

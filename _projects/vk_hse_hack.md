@@ -80,7 +80,7 @@ related_publications: false
 
 ## Технологии
 
-transformers, Saiga3 8b, taiga, streamlit
+`transformers`, `Saiga3 8b`, `taiga dataset`, `streamlit`
 
 ## Решение
 
