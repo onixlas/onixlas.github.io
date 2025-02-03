@@ -51,40 +51,15 @@
     },
     {
       "name": "NLP",
-      "keywords": [
-        "Ollama",
-        "Label Studio",
-        "transformers",
-        "deeppavlov",
-        "natasha",
-        "yargy parser"
-      ]
+      "keywords": ["Ollama", "Label Studio", "transformers", "deeppavlov", "natasha", "yargy parser"]
     },
     {
       "name": "Computer Vision",
-      "keywords": [
-        "object detection",
-        "segmentation",
-        "autoencoders",
-        "UNet",
-        "YOLO",
-        "CVAT",
-        "OpenCV",
-        "PIL"
-      ]
+      "keywords": ["object detection", "segmentation", "autoencoders", "UNet", "YOLO", "CVAT", "OpenCV", "PIL"]
     },
     {
       "name": "Anomaly Detection",
-      "keywords": [
-        "PyOD",
-        "PySAD",
-        "ECOD",
-        "HBOS",
-        "iForest",
-        "Exact-STORM",
-        "Half-space Trees",
-        "RRCF"
-      ]
+      "keywords": ["PyOD", "PySAD", "ECOD", "HBOS", "iForest", "Exact-STORM", "Half-space Trees", "RRCF"]
     },
     {
       "name": "Machine Learning",
@@ -104,16 +79,7 @@
     },
     {
       "name": "MLOps & Deployment",
-      "keywords": [
-        "MLFlow",
-        "AirFlow",
-        "Docker",
-        "Linux",
-        "FastAPI",
-        "pywin32",
-        "uvicorn",
-        "pyinstaller"
-      ]
+      "keywords": ["MLFlow", "AirFlow", "Docker", "Linux", "FastAPI", "pywin32", "uvicorn", "pyinstaller"]
     }
   ],
   "выступления": [
@@ -174,9 +140,7 @@
       "studyType": "повышение квалификации",
       "startDate": "2021-10",
       "endDate": "2022-03",
-      "courses": [
-        "Введение в искусственный интеллект и нейросети для авиационных приложений"
-      ]
+      "courses": ["Введение в искусственный интеллект и нейросети для авиационных приложений"]
     },
     {
       "institution": "УЦ «Специалист»",
