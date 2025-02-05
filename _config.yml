@@ -191,6 +191,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  speeches:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true

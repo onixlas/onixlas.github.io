@@ -4,7 +4,7 @@ title: CV-модуль DCAP-системы
 description: Разработка микросервиса с computer vision нейросетями для анализа неструктурированных данных
 img: assets/img/computer_vision_analysis.png
 importance: 1
-category: "доклады"
+category: "работа"
 related_publications: false
 ---
 
