@@ -8,6 +8,10 @@ category: "работа"
 related_publications: false
 ---
 
+## Описание
+
+Компания Makves (входит в группу компаний "Гарда") разрабатывает российскую DCAP (data-centric audit and protection) систему для защиты корпоративных данных. Для анализа неструктурированных данных необходимо применять нейросети. Я рассказал о проблемах, с которыми мы (по сути — активно растущий стартап) столкнулись при создании нейросетей, от этапа сбора и разметки данных и до создания нескольких микросервисов.
+
 ## Доклад
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VMDWjJoT8yE?si=wiMyAM7ROvAwkn7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
