@@ -16,4 +16,4 @@ related_posts: false
 
 ## Презентация
 
-<iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 314;" frameborder="0" src="https://speakerdeck.com/player/eaa9bf0dae414e82b92625a22efd88f7" title="Moscow Python Meetup №98 Михаил Васильев (Маквес, Старший специалист по машинному обучению). NLP нейросети в защите данных: опыт Makves DCAP" allowfullscreen="true" data-ratio="1.78343949044586"></iframe>
+<iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: auto; aspect-ratio: 560 / 314;" frameborder="0" src="https://speakerdeck.com/player/eaa9bf0dae414e82b92625a22efd88f7" title="Moscow Python Meetup №98 Михаил Васильев (Маквес, Старший специалист по машинному обучению). NLP нейросети в защите данных: опыт Makves DCAP" allowfullscreen="true" data-ratio="1.78343949044586"></iframe>
