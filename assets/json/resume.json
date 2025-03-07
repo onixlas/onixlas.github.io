@@ -20,7 +20,7 @@
       "location": "Москва, Россия",
       "url": "https://makves.ru",
       "startDate": "2023-01",
-      "summary": "<p>Проект: создание комплексного решения для обеспечения безопасности в корпоративной сети на основе неструктурированных данных</p><p>Инструменты: python, transformers, EfficientNet, MobileNet, YOLO, PyOD, pySAD, pandas, sklearn, pytorch, lightning, catboost, numpy, matplotlib, plotly, huggingface, onnx, fastapi, uvicorn, pyinstaller, pywin32, optimum, airflow, mlflow, cvat, natasha, deeppavlov, BERT, whisper, Ollama</p>",
+      "summary": "<p>Проект: разработка и внедрение RAG-системы</p><p>Инструменты: LangChain, Ollama, Saiga, GigaChat, Python, HuggingFace, PyTorch, FastAPI, Ragas</p><p>Проект: создание комплексного решения для обеспечения безопасности в корпоративной сети на основе неструктурированных данных</p><p>Инструменты: python, transformers, EfficientNet, MobileNet, YOLO, PyOD, pySAD, pandas, sklearn, pytorch, lightning, catboost, numpy, matplotlib, plotly, huggingface, onnx, fastapi, uvicorn, pyinstaller, pywin32, optimum, airflow, mlflow, cvat, natasha, deeppavlov, BERT, whisper, Ollama</p>",
       "highlights": [
         "реализовал нейросетевой модуль для поиска нарушений закона о персональных данных, количество детектируемых классов увеличено с 14 до 36, accuracy top 1 увеличена до 98.9",
         "подготовил модуль для анализа содержимого отсканированных документов: поиск текста, таблиц, печатей, подписей и корпоративных бланков, количество классов увеличено с 5 до 19, mAP@.5 улучшен с .89 до .94",
@@ -51,7 +51,7 @@
     },
     {
       "name": "NLP",
-      "keywords": ["Ollama", "Label Studio", "transformers", "deeppavlov", "natasha", "yargy parser"]
+      "keywords": ["RAG", "LLM", "ragas", "Ollama", "Label Studio", "transformers", "natasha"]
     },
     {
       "name": "Computer Vision",
@@ -83,6 +83,13 @@
     }
   ],
   "выступления": [
+    {
+      "name": "Поиск аномалий в данных, алгоритмы HBOS и ECOD",
+      "publisher": "Moscow Python Meetup № 99",
+      "releaseDate": "2025-02-24",
+      "url": "https://moscowpython.ru/meetup/99/search-for-data-anomalies/",
+      "summary": "В докладе рассматриваются два интересных подхода для поиска аномалий в данных: алгоритм HBOS и ECOD. В докладе будут представлены основные принципы работы этих алгоритмов, их преимущества и ограничения."
+    },
     {
       "name": "NLP нейросети в защите данных: опыт Makves DCAP",
       "publisher": "Moscow Python Meetup № 98",
