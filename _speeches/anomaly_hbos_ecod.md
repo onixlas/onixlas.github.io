@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Поиск аномалий в данных, алгоритмы HBOS и ECOD
-description: Разработка микросервиса с computer vision нейросетями для анализа неструктурированных данных
+title: Поиск аномалий, HBOS и ECOD
+description: Разбор алгоритмов HBOS и ECOD
 img: assets/img/speech_anomaly_hbos_ecod.png
 importance: 1
 category: "аномалии"
