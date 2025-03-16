@@ -2,7 +2,7 @@
 layout: page
 title: Поиск аномалий, HBOS и ECOD
 description: Разбор алгоритмов HBOS и ECOD
-img: assets/img/speech_anomaly_hbos_ecod.png
+img: assets/img/speech_anomaly_hbos_ecod.jpg
 importance: 1
 category: "аномалии"
 related_publications: false
