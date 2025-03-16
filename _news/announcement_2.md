@@ -3,7 +3,7 @@ layout: post
 title: Видео выступления
 date: 2024-08-01
 inline: false
-related_posts: false
+related_posts: true
 ---
 
 Появилось видео моего выступления на [Moscow Python Meetup 91](https://moscowpython.ru/meetup/91/). В докладе я поделился опытом своей работы в компании [Makves](https://makves.ru/), а также рассказал о применении задач компьютерного зрения для обеспечения корпоративной безопасности.
