@@ -5,7 +5,6 @@ permalink: /articles/
 description:
 nav: true
 nav_order: 5
-display_categories: ["аномалии"]
 horizontal: false
 ---
 
@@ -41,7 +40,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.articles | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 
