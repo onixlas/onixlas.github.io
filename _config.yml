@@ -194,6 +194,9 @@ collections:
   speeches:
     output: true
     permalink: /:collection/:title/
+  articles:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
