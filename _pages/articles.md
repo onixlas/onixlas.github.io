@@ -5,7 +5,7 @@ permalink: /articles/
 description:
 nav: true
 nav_order: 5
-display_categories:
+display_categories: ["аномалии"]
 horizontal: false
 ---
 
