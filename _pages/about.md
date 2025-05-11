@@ -2,7 +2,7 @@
 layout: about
 title: Обо мне
 permalink: /
-subtitle: Deep learning engineer. NLP, CV, anomaly detection
+subtitle: Data Scientist | Deep Learning Engineer
 
 profile:
   align: right
@@ -17,14 +17,21 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Привет. Меня зовут Михаил Васильев. Я — data scientist, deep learning engineer.
+Специализация: компьютерное зрение (CV), обработка естественного языка (NLP), anomaly detection.
 
-Большой опыт применения моделей глубокого обучения для решения задач CV и NLP. Также обучаю классические ML-модели для задач anomaly detection в различных контекстах.
+**Опыт и экспертиза**
 
-Выпускник и амбассадор [Яндекс Практикума](https://practicum.yandex.ru/), выпускник [Deep learning school ФПМИ МФТИ](https://dls.samcs.ru/).
+- Разрабатываю и внедряю модели глубокого обучения для промышленных и исследовательских задач.
+- Оптимизирую pipelines: от экспериментов до production-решений (ONNX, FastAPI, Airflow, MLflow).
+- Работаю с мультимодальными данными: изображения, текст, аудио (Whisper, BERT, YOLO, EfficientNet).
 
-Мне нравится работать с данными, читать научные статьи, экспериментировать, пробовать различные подходы в обучении ML-моделей, строить графики.
+**Как я работаю**
 
-Въедливый, умею замечать небольшие логические ошибки, обожаю интеллектуальные игры, с удовольствием изучаю иностранные языки.
+- **Внимание к деталям**: ловлю логические ошибки, тестирую гипотезы, ищу неочевидные закономерности.
+- **Научный подход**: читаю статьи, экспериментирую с архитектурами, сравниваю подходы.
+- **Инструменты**: Python, PyTorch, Transformers, OpenCV, Sklearn, CatBoost, Hugging Face и др.
 
-Используемые технологии: python, transformers, EfficientNet, MobileNet, YOLO, OpenCV, PIL, PyOD, pandas, sklearn, pytorch, lightning, numpy, matplotlib, plotly, huggingface, catboost, onnx, fastapi, uvicorn, pyinstaller, pywin32, optimum, airflow, mlflow, cvat, natasha, deeppavlov, BERT, whisper, Ollama
+**Что меня вдохновляет**
+
+- Интеллектуальные задачи, которые требуют глубины анализа.
+- Иностранные языки и кросс-дисциплинарные проекты.
