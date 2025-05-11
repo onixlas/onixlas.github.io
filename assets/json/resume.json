@@ -84,6 +84,13 @@
   ],
   "выступления": [
     {
+      "name": "Поиск аномалий в данных, алгоритмы IForest и PCA",
+      "publisher": "Moscow Python Meetup № 101",
+      "releaseDate": "2025-04-23",
+      "url": "https://onixlas.github.io/speeches/anomaly_iforest_pca/",
+      "summary": "В докладе разбираются алгоритмы поиска аномалий Isolation Forest и PCA: принципы работы, сильные стороны и ограничения с примерами кода и сравнением эффективности."
+    },
+    {
       "name": "Поиск аномалий в данных, алгоритмы HBOS и ECOD",
       "publisher": "Moscow Python Meetup № 99",
       "releaseDate": "2025-02-24",
