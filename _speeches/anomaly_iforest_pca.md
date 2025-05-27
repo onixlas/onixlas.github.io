@@ -3,7 +3,7 @@ layout: page
 title: Поиск аномалий, IForest и PCA
 description: Разбор алгоритмов IForest и PCA
 img: assets/img/speech_anomaly_iforest_pca.jpg
-importance: 2
+importance: 3
 category: "аномалии"
 related_publications: false
 ---
