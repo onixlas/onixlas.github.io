@@ -18,6 +18,10 @@ related_publications: false
 
 Доклад ориентирован на специалистов в области анализа данных, инженерии безопасности и разработчиков, работающих с большими объёмами информации и заинтересованных в построении устойчивых систем обнаружения нетипичного поведения.
 
+## Репозиторий проекта
+
+Код для генерации всех графиков для доклада размещён в [репозитории](https://github.com/onixlas/phd-2025-anomaly-detection) на github.
+
 ## Доклад на русском языке
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yt55PeVFNyk?si=-A6SisevVe6cncbV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
