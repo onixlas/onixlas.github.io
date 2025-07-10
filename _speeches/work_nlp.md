@@ -4,7 +4,7 @@ title: NLP-модуль DCAP-системы
 description: Разработка микросервиса с NLP-нейросетями для анализа неструктурированных данных
 img: assets/img/speech_makves_nlp.jpg
 importance: 2
-category: "работа"
+category: "makves"
 related_publications: false
 ---
 
