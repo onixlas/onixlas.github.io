@@ -5,7 +5,7 @@ permalink: /speeches/
 description:
 nav: true
 nav_order: 4
-display_categories: ["makves", "аномалии"]
+display_categories: ["аномалии", "makves"]
 horizontal: false
 ---
 
