@@ -28,3 +28,5 @@ related_publications: false
 ## Презентация
 
 <iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: auto; aspect-ratio: 560 / 315;" frameborder="0" src="https://speakerdeck.com/player/1f2335b8ef3b4732ac2dae0779e53255" title="Moscow Python Meetup №102 Михаил Васильев (старший специалист по машинному обучению). Поиск аномалий в данных, алгоритмы KNN и LOF   " allowfullscreen="true" data-ratio="1.7777777777777777"></iframe>
+
+[скачать презентацию в pdf](https://github.com/onixlas/conference-presentations/blob/main/moscow_python_meetup_102/KNN%20LOF.pdf)

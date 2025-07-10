@@ -19,3 +19,5 @@ related_publications: false
 ## Презентация
 
 <iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: auto; aspect-ratio: 560 / 315;" frameborder="0" src="https://speakerdeck.com/player/b3ef71f233704aa28dbb102e01a071cc" title="Moscow Python Meetup №99. Михаил Васильев  (Cтарший специалист по машинному обучению).  Поиск аномалий в данных, алгоритмы HBOS и ECOD" allowfullscreen="true" data-ratio="1.7777777777777777"></iframe>
+
+[скачать презентацию в pdf](https://github.com/onixlas/conference-presentations/blob/main/moscow_python_meetup_99/HBOS_ECOD.pdf)
