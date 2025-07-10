@@ -29,3 +29,9 @@ related_publications: false
 ## Доклад на английском языке
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zg36gHVdr0E?si=5BupynJi3avwTvoK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Презентация
+
+<iframe class="speakerdeck-iframe" style="border: 0px; background: rgba(0, 0, 0, 0.1) padding-box; margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: auto; aspect-ratio: 560 / 315;" frameborder="0" src="https://speakerdeck.com/player/efc91da6ec45435dbbc570b3d62faafc" title="Anomaly Detection with Python" allowfullscreen="true" data-ratio="1.7777777777777777"></iframe>
+
+[скачать презентацию в pdf](https://github.com/onixlas/conference-presentations/blob/main/positive_hack_days_2025/michael_vasiljev_phd_anomaly.pdf)
