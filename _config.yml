@@ -191,7 +191,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
-  speeches:
+  talks:
     output: true
     permalink: /:collection/:title/
   articles:

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Доклады
-permalink: /speeches/
+permalink: /talks/
 description:
 nav: true
 nav_order: 4
@@ -9,7 +9,7 @@ display_categories: ["аномалии", "makves"]
 horizontal: false
 ---
 
-<!-- pages/speeches.md -->
+<!-- pages/talks.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -17,7 +17,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.speeches | where: "category", category %}
+  {% assign categorized_projects = site.talks | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
