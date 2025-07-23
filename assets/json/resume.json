@@ -88,21 +88,21 @@
       "name": "Поиск аномалий с использованием Python: от теории к практике",
       "publisher": "Positive Hack Days",
       "releaseDate": "2025-05-24",
-      "url": "https://onixlas.github.io/speeches/anomaly_phdays/",
+      "url": "https://onixlas.github.io/talks/anomaly_phdays/",
       "summary": "Доклад «Поиск аномалий с использованием Python: от теории к практике» представляет обзор ключевых алгоритмов обнаружения аномалий, их сильных и слабых сторон, и демонстрирует практическую ценность подхода на примере из области корпоративной безопасности."
     },
     {
       "name": "Серия докладов: Поиск аномалий в данных, алгоритмы",
       "publisher": "Moscow Python Meetup",
       "releaseDate": "2025",
-      "url": "https://onixlas.github.io/speeches/#аномалии",
+      "url": "https://onixlas.github.io/talks/#аномалии",
       "summary": "В серии докладов наглядно описываются принципы работы основных алгоритмов поиска аномалий: HBOS, ECOD, Isolation Forest, PCA, kNN и LOF."
     },
     {
       "name": "NLP и CV нейросети в защите данных: опыт Makves DCAP",
       "publisher": "Moscow Python Meetup",
       "releaseDate": "2024",
-      "url": "https://onixlas.github.io/speeches/#makves",
+      "url": "https://onixlas.github.io/talks/#makves",
       "summary": "В этом докладе я расскажу, как мы использовали алгоритмы CV и NLP для улучшения DCAP системы компании Makves, преодолевая вызовы обработки неструктурированных данных и продуктивизации моделей. Доклад будет полезен как пример реального внедрения нейросетей в работающий продукт."
     }
   ],
