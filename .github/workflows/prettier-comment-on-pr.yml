@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: PR comment with html diff 💬
-        uses: thollander/actions-comment-pull-request@v2
+        uses: thollander/actions-comment-pull-request@v3
         with:
           comment_tag: prettier-failed
           pr_number: ${{ github.event.client_payload.pr_number }}
