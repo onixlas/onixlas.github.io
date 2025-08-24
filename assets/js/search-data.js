@@ -71,6 +71,11 @@ ninja.data = [{
           description: "Разбор алгоритмов HBOS и ECOD",
           section: "Articles",handler: () => {
               window.location.href = "/articles/anomaly_hbos_ecod/";
+            },},{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-видео-выступления",
           title: 'Видео выступления',
           description: "",
