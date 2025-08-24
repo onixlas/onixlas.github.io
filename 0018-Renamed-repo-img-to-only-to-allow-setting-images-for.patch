@@ -1,0 +1,165 @@
+From a9da28e256ae42324499dfac722c40ccede15e9e Mon Sep 17 00:00:00 2001
+From: George <31376482+george-gca@users.noreply.github.com>
+Date: Thu, 12 Dec 2024 12:45:04 -0300
+Subject: [PATCH 18/20] Renamed `repo-img-` to `only-` to allow setting images
+ for only one theme (#2886)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Closes #930.
+
+We already had classes for this kind of feature, but it was used
+specifically for repository information. Just renamed the classes so it
+is clear how they can be used.
+
+To use them with markdown, just do it like this:
+
+```markdown
+![Only light](assets/img/prof_pic_color.png){: .only-light}
+![Only dark](assets/img/prof_pic.jpg){: .only-dark}
+```
+
+and with html:
+
+```html
+<img
+  class="only-light"
+  src="assets/img/prof_pic_color.png"
+>
+<img
+  class="only-dark"
+  src="assets/img/prof_pic.jpg"
+>
+```
+
+Signed-off-by: George Araújo <george.gcac@gmail.com>
+---
+ _includes/repository/repo.liquid          |  4 ++--
+ _includes/repository/repo_trophies.liquid | 12 ++++++------
+ _includes/repository/repo_user.liquid     |  4 ++--
+ _sass/_themes.scss                        | 10 ++++++----
+ 4 files changed, 16 insertions(+), 14 deletions(-)
+
+diff --git a/_includes/repository/repo.liquid b/_includes/repository/repo.liquid
+index c9837bbc..0f1afd42 100644
+--- a/_includes/repository/repo.liquid
++++ b/_includes/repository/repo.liquid
+@@ -14,12 +14,12 @@
+ <div class="repo p-2 text-center">
+   <a href="https://github.com/{{ include.repository }}">
+     <img
+-      class="repo-img-light w-100"
++      class="only-light w-100"
+       alt="{{ include.repository }}"
+       src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+     >
+     <img
+-      class="repo-img-dark w-100"
++      class="only-dark w-100"
+       alt="{{ include.repository }}"
+       src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+     >
+diff --git a/_includes/repository/repo_trophies.liquid b/_includes/repository/repo_trophies.liquid
+index 07a8d42d..8535bd59 100644
+--- a/_includes/repository/repo_trophies.liquid
++++ b/_includes/repository/repo_trophies.liquid
+@@ -2,12 +2,12 @@
+   <a href="https://github.com/ryo-ma/github-profile-trophy">
+     <span class="d-none d-sm-none d-md-block">
+       <img
+-        class="repo-img-light"
++        class="only-light"
+         alt="{{ include.username }}"
+         src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=6"
+       >
+       <img
+-        class="repo-img-dark"
++        class="only-dark"
+         alt="{{ include.username }}"
+         src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=6"
+       >
+@@ -15,12 +15,12 @@
+ 
+     <span class="d-none d-sm-block d-md-none">
+       <img
+-        class="repo-img-light"
++        class="only-light"
+         alt="{{ include.username }}"
+         src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=4"
+       >
+       <img
+-        class="repo-img-dark"
++        class="only-dark"
+         alt="{{ include.username }}"
+         src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=4"
+       >
+@@ -28,12 +28,12 @@
+ 
+     <span class="d-block d-sm-none">
+       <img
+-        class="repo-img-light"
++        class="only-light"
+         alt="{{ include.username }}"
+         src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=3"
+       >
+       <img
+-        class="repo-img-dark"
++        class="only-dark"
+         alt="{{ include.username }}"
+         src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=3"
+       >
+diff --git a/_includes/repository/repo_user.liquid b/_includes/repository/repo_user.liquid
+index 35c301dd..7dc959f9 100644
+--- a/_includes/repository/repo_user.liquid
++++ b/_includes/repository/repo_user.liquid
+@@ -1,12 +1,12 @@
+ <div class="repo p-2 text-center">
+   <a href="https://github.com/{{ include.username }}">
+     <img
+-      class="repo-img-light w-100"
++      class="only-light w-100"
+       alt="{{ include.username }}"
+       src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true"
+     >
+     <img
+-      class="repo-img-dark w-100"
++      class="only-dark w-100"
+       alt="{{ include.username }}"
+       src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true"
+     >
+diff --git a/_sass/_themes.scss b/_sass/_themes.scss
+index 54518ecc..db23562b 100644
+--- a/_sass/_themes.scss
++++ b/_sass/_themes.scss
+@@ -56,10 +56,11 @@
+     display: none;
+   }
+ 
+-  .repo-img-light {
++  .only-light {
+     display: block;
+   }
+-  .repo-img-dark {
++
++  .only-dark {
+     display: none;
+   }
+ 
+@@ -111,10 +112,11 @@ html[data-theme="dark"] {
+   --global-danger-block-text: #600;
+   --global-danger-block-title: #c00;
+ 
+-  .repo-img-light {
++  .only-light {
+     display: none;
+   }
+-  .repo-img-dark {
++
++  .only-dark {
+     display: block;
+   }
+ }
+-- 
+2.48.1
+

@@ -1,0 +1,311 @@
+From f23e35e043bdfba2eb85e6247cfaaa1465217823 Mon Sep 17 00:00:00 2001
+From: George <31376482+george-gca@users.noreply.github.com>
+Date: Tue, 10 Dec 2024 19:01:01 -0300
+Subject: [PATCH 15/20] New image components (image galleries) (#2877)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Added support for multiple image galleries, and created a sample post
+showing how to enable and use them.
+
+---------
+
+Signed-off-by: George Araújo <george.gcac@gmail.com>
+---
+ _config.yml                           | 36 ++++++++++
+ _includes/head.liquid                 | 39 +++++++++++
+ _includes/scripts/imageLayouts.liquid | 42 ++++++++++++
+ _posts/2024-12-04-photo-gallery.md    | 97 +++++++++++++++++++++++++++
+ 4 files changed, 214 insertions(+)
+ create mode 100644 _posts/2024-12-04-photo-gallery.md
+
+diff --git a/_config.yml b/_config.yml
+index 659e9699..7a09e6aa 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -537,6 +537,14 @@ third_party_libraries:
+       js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
+       js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
+     version: "1.9.4"
++  lightbox2:
++    integrity:
++      css: "sha256-uypRbsAiJcFInM/ndyI/JHpzNe6DtUNXaWEUWEPfMGo="
++      js: "sha256-A6jI5V9s1JznkWwsBaRK8kSeXLgIqQfxfnvdDOZEURY="
++    url:
++      css: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/css/lightbox.min.css"
++      js: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/js/lightbox.min.js"
++    version: "2.11.5"
+   mathjax:
+     integrity:
+       js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+@@ -576,6 +584,19 @@ third_party_libraries:
+     url:
+       js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
+     version: "10.7.0"
++  photoswipe:
++    integrity:
++      js: "sha256-VCBpdxvrNNxGHNuTdNqK9kPFkev2XY7DYzHdmgaB69Q="
++    url:
++      css: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.min.css"
++      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.esm.min.js"
++    version: "5.4.4"
++  photoswipe-lightbox:
++    integrity:
++      js: "sha256-uCw4VgT5DMdwgtjhvU9e98nT2mLZXcw/8WkaTrDd3RI="
++    url:
++      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
++    version: "5.4.4"
+   polyfill:
+     url:
+       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
+@@ -588,6 +609,13 @@ third_party_libraries:
+       css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
+       js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
+     version: "2.4.1"
++  spotlight:
++    integrity:
++      css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="
++    url:
++      css: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/css/spotlight.min.css"
++      js: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
++    version: "0.7.8"
+   swiper:
+     integrity:
+       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
+@@ -628,6 +656,14 @@ third_party_libraries:
+       js: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js"
+       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
+     version: "5.16.3"
++  venobox:
++    integrity:
++      css: "sha256-ohJEB0/WsBOdBD+gQO/MGfyJSbTUI8OOLbQGdkxD6Cg="
++      js: "sha256-LsGXHsHMMmTcz3KqTaWvLv6ome+7pRiic2LPnzTfiSo="
++    url:
++      css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
++      js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
++    version: "2.1.8"
+ 
+ # -----------------------------------------------------------------------------
+ # Get external JSON data
+diff --git a/_includes/head.liquid b/_includes/head.liquid
+index b4f32b06..609f8fbe 100644
+--- a/_includes/head.liquid
++++ b/_includes/head.liquid
+@@ -132,6 +132,25 @@
+       crossorigin="anonymous"
+     >
+   {% endif %}
++  <!-- Lightbox2 -->
++  {% if page.images.lightbox2 %}
++    <link
++      defer
++      rel="stylesheet"
++      href="{{ site.third_party_libraries.lightbox2.url.css }}"
++      integrity="{{ site.third_party_libraries.lightbox2.integrity.css }}"
++      crossorigin="anonymous"
++    >
++  {% endif %}
++  <!-- Photoswipe -->
++  {% if page.images.photoswipe %}
++    <link
++      defer
++      rel="stylesheet"
++      href="{{ site.third_party_libraries.photoswipe.url.css }}"
++      crossorigin="anonymous"
++    >
++  {% endif %}
+   <!-- Image slider -->
+   {% if page.images.slider %}
+     <link
+@@ -142,6 +161,26 @@
+       crossorigin="anonymous"
+     >
+   {% endif %}
++  <!-- Spotlight -->
++  {% if page.images.spotlight %}
++    <link
++      defer
++      rel="stylesheet"
++      href="{{ site.third_party_libraries.spotlight.url.css }}"
++      integrity="{{ site.third_party_libraries.spotlight.integrity.css }}"
++      crossorigin="anonymous"
++    >
++  {% endif %}
++  <!-- Venobox -->
++  {% if page.images.venobox %}
++    <link
++      defer
++      rel="stylesheet"
++      href="{{ site.third_party_libraries.venobox.url.css }}"
++      integrity="{{ site.third_party_libraries.venobox.integrity.css }}"
++      crossorigin="anonymous"
++    >
++  {% endif %}
+ {% endif %}
+ 
+ {% if page.tikzjax %}
+diff --git a/_includes/scripts/imageLayouts.liquid b/_includes/scripts/imageLayouts.liquid
+index 4bdef5fd..fb5475e8 100644
+--- a/_includes/scripts/imageLayouts.liquid
++++ b/_includes/scripts/imageLayouts.liquid
+@@ -7,6 +7,26 @@
+       crossorigin="anonymous"
+     ></script>
+   {% endif %}
++  {% if page.images.lightbox2 %}
++    <script
++      defer
++      src="{{ site.third_party_libraries.lightbox2.url.js }}"
++      integrity="{{ site.third_party_libraries.lightbox2.integrity.js }}"
++      crossorigin="anonymous"
++    ></script>
++  {% endif %}
++  {% if page.images.photoswipe %}
++    <script type="module">
++      import PhotoSwipeLightbox from '{{ site.third_party_libraries.photoswipe-lightbox.url.js }}';
++      import PhotoSwipe from '{{ site.third_party_libraries.photoswipe.url.js }}';
++      const photoswipe = new PhotoSwipeLightbox({
++        gallery: '.pswp-gallery',
++        children: 'a',
++        pswpModule: PhotoSwipe,
++      });
++      photoswipe.init();
++    </script>
++  {% endif %}
+   {% if page.images.slider %}
+     <script
+       defer
+@@ -15,4 +35,26 @@
+       crossorigin="anonymous"
+     ></script>
+   {% endif %}
++  {% if page.images.spotlight %}
++    <script
++      defer
++      src="{{ site.third_party_libraries.spotlight.url.js }}"
++      crossorigin="anonymous"
++    ></script>
++  {% endif %}
++  {% if page.images.venobox %}
++    <script
++      defer
++      src="{{ site.third_party_libraries.venobox.url.js }}"
++      integrity="{{ site.third_party_libraries.venobox.integrity.js }}"
++      crossorigin="anonymous"
++    ></script>
++    <script>
++      document.addEventListener('readystatechange', () => {
++        if (document.readyState === 'complete') {
++          new VenoBox();
++        }
++      });
++    </script>
++  {% endif %}
+ {% endif %}
+diff --git a/_posts/2024-12-04-photo-gallery.md b/_posts/2024-12-04-photo-gallery.md
+new file mode 100644
+index 00000000..e28eb73f
+--- /dev/null
++++ b/_posts/2024-12-04-photo-gallery.md
+@@ -0,0 +1,97 @@
++---
++layout: post
++title: a post with image galleries
++date: 2024-12-04 01:59:00
++description: this is what included image galleries could look like
++tags: formatting images
++categories: sample-posts
++thumbnail: assets/img/9.jpg
++images:
++  lightbox2: true
++  photoswipe: true
++  spotlight: true
++  venobox: true
++---
++
++The images in this post are all zoomable, arranged into different mini-galleries using different libraries.
++
++## [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)
++
++<a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg" /></a>
++<a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" /></a>
++<a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" /></a>
++
++---
++
++## [PhotoSwipe](https://photoswipe.com/)
++
++<div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started">
++  <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"
++    data-pswp-width="1669"
++    data-pswp-height="2500"
++    target="_blank">
++    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt="" />
++  </a>
++  <!-- cropped thumbnail: -->
++  <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg"
++    data-pswp-width="1875"
++    data-pswp-height="2500"
++    data-cropped="true"
++    target="_blank">
++    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt="" />
++  </a>
++  <!-- data-pswp-src with custom URL in href -->
++  <a href="https://unsplash.com"
++    data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"
++    data-pswp-width="2500"
++    data-pswp-height="1666"
++    target="_blank">
++    <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt="" />
++  </a>
++  <!-- wrapped with any element: -->
++  <div>
++    <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"
++      data-pswp-width="2500"
++      data-pswp-height="1667"
++      target="_blank">
++      <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt="" />
++    </a>
++  </div>
++</div>
++
++---
++
++## [Spotlight JS](https://nextapps-de.github.io/spotlight/)
++
++<!-- Group 1 -->
++<div class="spotlight-group">
++    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg">
++        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg" />
++    </a>
++    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg">
++        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" />
++    </a>
++    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg">
++        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" />
++    </a>
++</div>
++<!-- Group 2 -->
++<div class="spotlight-group">
++    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg">
++        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg" />
++    </a>
++    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg">
++        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg" />
++    </a>
++    <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg">
++        <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" />
++    </a>
++</div>
++
++---
++
++## [Venobox](https://veno.es/venobox/)
++
++<a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg" /></a>
++<a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" /></a>
++<a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" /></a>
+-- 
+2.48.1
+
