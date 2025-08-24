@@ -1,0 +1,30 @@
+From c170eaf2d0eb081d291691b2c9860e47e5f93d23 Mon Sep 17 00:00:00 2001
+From: Guillaume Dalle <22795598+gdalle@users.noreply.github.com>
+Date: Mon, 25 Nov 2024 18:54:30 +0100
+Subject: [PATCH 04/20] Bluesky URL prefix should not be appended (#2856)
+
+This PR modifies
+
+- `_config.yml` to rename `bluesky_url` into `bluesky_id`
+- `_includes/social.liquid` to handle the renaming in the display of
+social media icons
+---
+ _includes/social.liquid | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/_includes/social.liquid b/_includes/social.liquid
+index 942de6ea..ca8c6ba7 100644
+--- a/_includes/social.liquid
++++ b/_includes/social.liquid
+@@ -110,7 +110,7 @@
+   <a href="https://facebook.com/{{ site.facebook_id }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+ {% endif %}
+ {% if site.bluesky_url %}
+-  <a href="https://bsky.app/profile/{{ site.bluesky_url }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
++  <a href="{{ site.bluesky_url }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+ {% endif %}
+ {% if site.youtube_id %}
+   <a href="https://youtube.com/@{{ site.youtube_id }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+-- 
+2.48.1
+
