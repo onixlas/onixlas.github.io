@@ -2,6 +2,9 @@
 
 Here we will give you some tips on how to customize the website. One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository. The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
 
+<!--ts-->
+<!--te-->
+
 ## Project structure
 
 The project is structured as follows, focusing on the main components that you will need to modify:
@@ -163,10 +166,10 @@ Depending on your specified footer behavior, the sign up form either will appear
 
 ## Removing content
 
-Since this template have a lot of content, you may want to remove some of it. The easiest way to achieve this and avoid merge conflicts when updating your code (as [pointed by CheariX ](https://github.com/alshedivat/al-folio/pull/2933#issuecomment-2571271117)) is to add the unwanted files to the `excludes` section in your `_config.yml` file instead of actually deleting them, for example:
+Since this template have a lot of content, you may want to remove some of it. The easiest way to achieve this and avoid merge conflicts when updating your code (as [pointed by CheariX ](https://github.com/alshedivat/al-folio/pull/2933#issuecomment-2571271117)) is to add the unwanted files to the `exclude` section in your `_config.yml` file instead of actually deleting them, for example:
 
 ```yml
-excludes:
+exclude:
   - _news/announcement_*.md
   - _pages/blog.md
   - _posts/
