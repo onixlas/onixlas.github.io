@@ -38,4 +38,4 @@ related_publications: false
 
 ## Литература
 
-{% bibliography --query @*[keywords ~= outlier-detection && (keywords ~= textbook || keywords ~= handbook)] %}
+{% bibliography --query @article[keywords ~= outlier-detection] %}
