@@ -264,7 +264,7 @@ scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 
-  style: dependent/russian-mathematical-surveys
+  style: ieee
   locale: ru
 
   source: /_bibliography/
