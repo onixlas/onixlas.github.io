@@ -38,4 +38,4 @@ related_publications: false
 
 ## Литература
 
-{% bibliography --query @article[keywords ~= outlier-detection] %}
+{% bibliography --query @book[keywords ~= outlier-detection] %}
