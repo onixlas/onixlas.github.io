@@ -264,8 +264,8 @@ scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 
-  style: apa
-  locale: en
+  style: dependent/russian-mathematical-surveys
+  locale: ru
 
   source: /_bibliography/
   bibliography: papers.bib
@@ -282,7 +282,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: none
   group_order: descending
 
 # Display different badges withs stats for your publications
@@ -325,7 +325,7 @@ max_author_limit: 3 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+enable_publication_thumbnails: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
