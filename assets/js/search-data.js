@@ -93,6 +93,11 @@ ninja.data = [{
           description: "Разбор алгоритмов HBOS и ECOD",
           section: "Articles",handler: () => {
               window.location.href = "/articles/anomaly_hbos_ecod/";
+            },},{id: "articles-алгоритм-поиска-аномалий-isolation-forest",
+          title: 'Алгоритм поиска аномалий Isolation Forest',
+          description: "Разбор алгоритма Isolation Forest",
+          section: "Articles",handler: () => {
+              window.location.href = "/articles/anomaly_iforest/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -153,6 +158,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_12/";
+            },},{id: "news-статья-алгоритм-поиска-аномалий-isolation-forest",
+          title: 'Статья «Алгоритм поиска аномалий Isolation Forest»',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_13/";
             },},{id: "projects-распознавание-лиц",
           title: 'Распознавание лиц',
           description: "В этом проекте мы будем решать задачу распознавания лиц. Мы обучим нейросеть и поиграем с различными функциями потерь и метриками. Обучение будем производить на наборе данных CelebA dataset.",
