@@ -3,7 +3,7 @@ layout: post
 title: Разбор алгоритмов HBOS и ECOD
 date: 2025-03-16
 inline: false
-related_posts: true
+related_posts: false
 ---
 
 Коллеги из [Moscow Python](https://moscowpython.ru/) выложили на YouTube видео моего выступления, посвященного проблеме поиска аномалий. В докладе я представил пошаговый разбор алгоритмов HBOS и ECOD, продемонстрировал их сильные и слабые стороны.

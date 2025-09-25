@@ -3,7 +3,7 @@ layout: post
 title: Выпуск подкаста
 date: 2024-10-04
 inline: false
-related_posts: true
+related_posts: false
 ---
 
 Вышел подкаст [Deep Learning Stories](https://podcasts.apple.com/ru/podcast/deep-learning-stories/id1585678829) с моим участием. Поговорили с [Татьяной Гаинцевой](https://atmyre.github.io/) о том, как войти в IT и сохранить себя.

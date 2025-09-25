@@ -3,7 +3,7 @@ layout: post
 title: Разбор алгоритмов IForest и PCA
 date: 2025-05-11
 inline: false
-related_posts: true
+related_posts: false
 ---
 
 Крутые коллеги [Moscow Python](https://moscowpython.ru/) выложили на YouTube видео моего доклада, где я разбираю алгоритмы поиска аномалий — Isolation Forest и PCA.

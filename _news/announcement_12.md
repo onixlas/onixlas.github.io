@@ -3,7 +3,7 @@ layout: post
 title: Поиск аномалий, алгоритмы kNN и LOF
 date: 2025-07-10
 inline: false
-related_posts: true
+related_posts: false
 ---
 
 Опубликована третья, заключительная часть серии докладов по поиску аномалий. В видео я разбираю алгоритмы kNN и LOF, а также показываю, как их ускорить с помощью Ball Tree.

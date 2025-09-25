@@ -3,7 +3,7 @@ layout: post
 title: Доклад на Positive Hack Days Fest 2025
 date: 2025-04-21
 inline: false
-related_posts: true
+related_posts: false
 ---
 
 **24 мая выступлю на Positive Hack Days Fest 2025 с докладом «Поиск аномалий в Python: от теории к практике»**
