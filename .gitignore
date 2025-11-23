@@ -11,4 +11,4 @@ assets/libs/
 node_modules/
 vendor
 .idea
-*.patch
+.venv
