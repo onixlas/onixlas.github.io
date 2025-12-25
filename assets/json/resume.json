@@ -54,40 +54,44 @@
   ],
   "технологии": [
     {
-      "name": "Deep Learning",
-      "keywords": ["PyTorch", "Lightning", "ONNX", "HuggingFace", "Optimum"]
+      "name": "Deep Learning & Transformers",
+      "keywords": ["PyTorch", "Lightning", "Hugging Face Transformers", "BERT", "ONNX", "Optimum"]
     },
     {
-      "name": "NLP",
-      "keywords": ["RAG", "LLM", "ragas", "Ollama", "Label Studio", "transformers", "natasha"]
+      "name": "Generative AI / LLM Engineering",
+      "keywords": ["RAG", "LangChain", "Ollama", "GigaChat", "Saiga", "Ragas", "Prompt Engineering"]
+    },
+    {
+      "name": "Vector Databases & Semantic Search",
+      "keywords": ["FAISS", "sentence-transformers", "embedding models", "similarity search"]
     },
     {
       "name": "Computer Vision",
-      "keywords": ["object detection", "segmentation", "autoencoders", "UNet", "YOLO", "CVAT", "OpenCV", "PIL"]
+      "keywords": ["YOLO", "U-Net", "OpenCV", "CVAT", "Albumentations"]
     },
     {
       "name": "Anomaly Detection",
-      "keywords": ["PyOD", "PySAD", "ECOD", "HBOS", "iForest", "Exact-STORM", "Half-space Trees", "RRCF"]
+      "keywords": ["PyOD", "RRCF", "Isolation Forest", "ECOD", "HBOS", "PySAD"]
     },
     {
-      "name": "Machine Learning",
-      "keywords": ["scikit-learn", "CatBoost", "XGBoost", "faiss"]
+      "name": "Machine Learning & Ensembles",
+      "keywords": ["scikit-learn", "CatBoost", "XGBoost"]
     },
     {
-      "name": "Data analysis",
-      "keywords": ["python", "SQL", "PostgreSQL", "MySQL", "pandas", "polars"]
+      "name": "Natural Language Processing (NLP)",
+      "keywords": ["NER", "natasha", "text classification", "information extraction"]
     },
     {
-      "name": "Audio",
-      "keywords": ["whisper", "hubert", "Common Voice"]
+      "name": "Speech & Audio Processing",
+      "keywords": ["Whisper", "HuBERT", "Common Voice"]
     },
     {
-      "name": "Data visualisation",
-      "keywords": ["seaborn", "matplotlib", "plotly"]
+      "name": "Data Engineering & Analysis",
+      "keywords": ["pandas", "polars", "SQL", "PostgreSQL", "MySQL"]
     },
     {
-      "name": "MLOps & Deployment",
-      "keywords": ["MLFlow", "AirFlow", "Docker", "Linux", "FastAPI", "pywin32", "uvicorn", "pyinstaller"]
+      "name": "MLOps & Production Deployment",
+      "keywords": ["Docker", "FastAPI", "Uvicorn", "MLflow", "Airflow", "Linux", "PyInstaller"]
     }
   ],
   "выступления": [
