@@ -54,16 +54,16 @@
   ],
   "технологии": [
     {
-      "name": "Deep Learning & Transformers",
-      "keywords": ["PyTorch", "Lightning", "Hugging Face Transformers", "BERT", "ONNX", "Optimum"]
-    },
-    {
       "name": "Generative AI / LLM Engineering",
-      "keywords": ["RAG", "LangChain", "Ollama", "GigaChat", "Saiga", "Ragas", "Prompt Engineering"]
+      "keywords": ["RAG", "LangChain", "Ollama", "GigaChat", "Qwen", "Ragas", "Prompt Engineering"]
     },
     {
       "name": "Vector Databases & Semantic Search",
-      "keywords": ["FAISS", "sentence-transformers", "embedding models", "similarity search"]
+      "keywords": ["FAISS", "Qdrant", "Milvus", "sentence-transformers", "embedding models", "similarity search"]
+    },
+    {
+      "name": "Deep Learning & Transformers",
+      "keywords": ["PyTorch", "Lightning", "Hugging Face Transformers", "BERT", "ONNX", "Optimum"]
     },
     {
       "name": "Computer Vision",
