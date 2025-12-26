@@ -275,14 +275,14 @@ ninja.data = [{
         title: 'Kaggle',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.kaggle.com/salutonkielvifartas", "_blank");
+          window.open("https://www.kaggle.com/", "_blank");
         },
       },{
         id: 'social-leetcode',
         title: 'LeetCode',
         section: 'Socials',
         handler: () => {
-          window.open("https://leetcode.com/u/user9363i/", "_blank");
+          window.open("https://leetcode.com/u//", "_blank");
         },
       },{
         id: 'social-linkedin',
