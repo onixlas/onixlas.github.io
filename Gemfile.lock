@@ -29,7 +29,7 @@ GEM
       latex-decode (~> 0.0)
       logger (~> 1.7)
       racc (~> 1.7)
-    bigdecimal (3.3.1)
+    bigdecimal (4.0.1)
     citeproc (1.1.0)
       date
       forwardable
@@ -112,7 +112,7 @@ GEM
       nokogiri (>= 1.4)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
-    httparty (0.23.2)
+    httparty (0.24.0)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
@@ -201,8 +201,8 @@ GEM
     mercenary (0.4.0)
     mini_mime (1.1.5)
     minitest (5.26.2)
-    multi_xml (0.7.2)
-      bigdecimal (~> 3.1)
+    multi_xml (0.8.0)
+      bigdecimal (>= 3.1, < 5)
     namae (1.2.0)
       racc (~> 1.7)
     nokogiri (1.18.10-aarch64-linux-gnu)
