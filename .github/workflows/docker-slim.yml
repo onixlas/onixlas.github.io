@@ -12,11 +12,7 @@ on:
     workflows: ["Docker Image CI"]
     types:
       - completed
-
-# on:
-#   push:
-#     branches:
-#       - 'master'
+  workflow_dispatch:
 
 jobs:
   build:
