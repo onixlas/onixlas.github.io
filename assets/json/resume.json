@@ -71,7 +71,7 @@
     },
     {
       "name": "Production ML",
-      "keywords": ["FastAPI", "Docker", "MLflow", "ONNX", "Linux", Git"]
+      "keywords": ["FastAPI", "Docker", "MLflow", "ONNX", "Linux", "Git"]
     },
     {
       "name": "Data",
