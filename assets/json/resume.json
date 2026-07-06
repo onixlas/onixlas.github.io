@@ -27,7 +27,7 @@
         "Инструменты: LangChain, Ragas, LLM-as-a-Judge",
         "Проект: гибридная GenAI-система для внутреннего карьерного консультирования",
         "Проект: предиктивная аналитика психоэмоционального состояния сотрудников",
-        "Инструменты: CatBoost, SHAP, Qwen",
+        "Инструменты: CatBoost, SHAP, Qwen"
       ]
     },
     {
@@ -59,15 +59,40 @@
   "технологии": [
     {
       "name": "Machine Learning",
-      "keywords": ["Python", "scikit-learn", "CatBoost", "PyTorch", "Feature Engineering", "Model Evaluation", "Explainability (SHAP)"]
+      "keywords": [
+        "Python",
+        "scikit-learn",
+        "CatBoost",
+        "PyTorch",
+        "Feature Engineering",
+        "Model Evaluation",
+        "Explainability (SHAP)"
+      ]
     },
     {
       "name": "LLM & AI Systems",
-      "keywords": ["RAG", "Agentic AI", "Prompt Engineering", "LangChain", "Qwen", "Llama", "Ollama", "LLM-as-a-Judge", "Ragas"]
+      "keywords": [
+        "RAG",
+        "Agentic AI",
+        "Prompt Engineering",
+        "LangChain",
+        "Qwen",
+        "Llama",
+        "Ollama",
+        "LLM-as-a-Judge",
+        "Ragas"
+      ]
     },
     {
       "name": "NLP & Computer Vision",
-      "keywords": ["classification", "NER", "embeddings", "transformers", "YOLO", "OpenCV"]
+      "keywords": [
+        "classification",
+        "NER",
+        "embeddings",
+        "transformers",
+        "YOLO",
+        "OpenCV"
+      ]
     },
     {
       "name": "Production ML",
@@ -79,7 +104,12 @@
     },
     {
       "name": "ML Engineering",
-      "keywords": ["ML System Design", "Technical Discovery", "Experiment Design", "Stakeholder Management"]
+      "keywords": [
+        "ML System Design",
+        "Technical Discovery",
+        "Experiment Design",
+        "Stakeholder Management"
+      ]
     }
   ],
   "выступления": [
