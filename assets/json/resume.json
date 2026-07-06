@@ -1,13 +1,13 @@
 {
   "основное": {
     "имя": "Михаил Васильев",
-    "специальность": "Data Scientist",
+    "специальность": "Senior ML Engineer",
     "image": "mvasiljev.jpg",
     "email": "gnu.xinm@gmail.com",
     "телефон": "+7 (916) 198-81-83",
     "телеграм": "LaHundo",
     "сайт": "https://onixlas.github.io/",
-    "о себе": "<b>Senior ML-инженер</b>, специализируюсь на <b>внедрении deep learning решений (NLP, CV, anomaly detection) в enterprise-среду</b>. Создаю production-системы для защиты данных, автоматизации и анализа неструктурированной информации. Опыт в <b>лидировании команд, организации DS-сообщества и публичной экспертизе</b> (PHDays, Moscow Python Meetup).",
+    "о себе": "Senior ML Engineer с опытом разработки и внедрения ML- и AI-решений в банковском и enterprise-сегменте. Имею опыт создания production-систем в областях LLM, NLP, Computer Vision, Anomaly Detection и классического машинного обучения. Руководил ML-проектами от Discovery и формирования требований до внедрения и оценки бизнес-эффекта, взаимодействовал с бизнес-заказчиками, разработчиками и топ-менеджментом.",
     "location": {
       "city": "Москва",
       "countryCode": "RU"
@@ -19,7 +19,16 @@
       "position": "старший инженер по машинному обучению",
       "location": "Москва, Россия",
       "url": "https://www.raiffeisen.ru/",
-      "startDate": "2025-07"
+      "startDate": "2025-07",
+      "highlights": [
+        "Проект: ML-сервис автоматического скоринга кандидатов",
+        "Инструменты: CatBoost, SHAP, Qwen, Rabbit MQ, FastAPI",
+        "Проект: AI-ассистент для внутреннего финансового портала",
+        "Инструменты: LangChain, Ragas, LLM-as-a-Judge",
+        "Проект: гибридная GenAI-система для внутреннего карьерного консультирования",
+        "Проект: предиктивная аналитика психоэмоционального состояния сотрудников",
+        "Инструменты: CatBoost, SHAP, Qwen"
+      ]
     },
     {
       "name": "Makves",
@@ -28,14 +37,9 @@
       "url": "https://makves.ru",
       "startDate": "2023-01",
       "endDate": "2025-07",
-      "summary": "<p>Проект: разработка и внедрение RAG-системы</p><p>Инструменты: LangChain, Ollama, Saiga, GigaChat, HuggingFace, FastAPI, Ragas</p><ul><li>разработал и внедрил RAG-систему для автоматизации обработки запросов заказчиков</li><li>оптимизировал гиперпараметры системы с использованием библиотеки Ragas и LLM GigaChat</li></ul><br><p>Проект: создание комплексного решения для обеспечения безопасности в корпоративной сети на основе неструктурированных данных</p><p>Инструменты: HuggingFace, YOLO, PyOD, Pandas, Sklearn, PyTorch, Lightning, NumPy, ONNX, FastAPI, Uvicorn, PyInstaller, Optimum, CatBoost, CVAT, natasha, BERT</p>",
       "highlights": [
-        "реализовал нейросетевой модуль для поиска нарушений закона о персональных данных, количество детектируемых классов увеличено с 14 до 36, accuracy top 1 увеличена до 98.9",
-        "подготовил модуль для анализа содержимого отсканированных документов: поиск текста, таблиц, печатей, подписей и корпоративных бланков, количество классов увеличено с 5 до 19, mAP@.5 улучшен с .89 до .94",
-        "реализовал поиск чувствительных данных в текстовых файлах, добавил модуль NER",
-        "создал ансамбль алгоритмов для поиска аномалий на табличных данных, в том числе на временных рядах",
-        "реализовал поиск чувствительных данных в аудио-файлах",
-        "собрал и организовал разметку 8 датасетов для задач классификации и object detection"
+        "Проект: развитие ML-подсистем коммерческой DCAP-платформы",
+        "Инструменты: YOLO, PyOD, PyTorch Lightning, HuggingFace, ONNX, FastAPI, optimum, CatBoost, LangChain, Ollama, Ragas"
       ]
     }
   ],
@@ -54,44 +58,58 @@
   ],
   "технологии": [
     {
-      "name": "Generative AI / LLM Engineering",
-      "keywords": ["RAG", "LangChain", "Ollama", "GigaChat", "Qwen", "Ragas", "Prompt Engineering"]
+      "name": "Machine Learning",
+      "keywords": [
+        "Python",
+        "scikit-learn",
+        "CatBoost",
+        "PyTorch",
+        "Feature Engineering",
+        "Model Evaluation",
+        "Explainability (SHAP)"
+      ]
     },
     {
-      "name": "Vector Databases & Semantic Search",
-      "keywords": ["FAISS", "Qdrant", "Milvus", "sentence-transformers", "embedding models", "similarity search"]
+      "name": "LLM & AI Systems",
+      "keywords": [
+        "RAG",
+        "Agentic AI",
+        "Prompt Engineering",
+        "LangChain",
+        "Qwen",
+        "Llama",
+        "Ollama",
+        "LLM-as-a-Judge",
+        "Ragas"
+      ]
     },
     {
-      "name": "Deep Learning & Transformers",
-      "keywords": ["PyTorch", "Lightning", "Hugging Face Transformers", "BERT", "ONNX", "Optimum"]
+      "name": "NLP & Computer Vision",
+      "keywords": [
+        "classification",
+        "NER",
+        "embeddings",
+        "transformers",
+        "YOLO",
+        "OpenCV"
+      ]
     },
     {
-      "name": "Computer Vision",
-      "keywords": ["YOLO", "U-Net", "OpenCV", "CVAT", "Albumentations"]
+      "name": "Production ML",
+      "keywords": ["FastAPI", "Docker", "MLflow", "ONNX", "Linux", "Git"]
     },
     {
-      "name": "Anomaly Detection",
-      "keywords": ["PyOD", "RRCF", "Isolation Forest", "ECOD", "HBOS", "PySAD"]
+      "name": "Data",
+      "keywords": ["SQL", "PostgreSQL", "pandas", "NumPy"]
     },
     {
-      "name": "Machine Learning & Ensembles",
-      "keywords": ["scikit-learn", "CatBoost", "XGBoost"]
-    },
-    {
-      "name": "Natural Language Processing (NLP)",
-      "keywords": ["NER", "natasha", "text classification", "information extraction"]
-    },
-    {
-      "name": "Speech & Audio Processing",
-      "keywords": ["Whisper", "HuBERT", "Common Voice"]
-    },
-    {
-      "name": "Data Engineering & Analysis",
-      "keywords": ["pandas", "polars", "SQL", "PostgreSQL", "MySQL"]
-    },
-    {
-      "name": "MLOps & Production Deployment",
-      "keywords": ["Docker", "FastAPI", "Uvicorn", "MLflow", "Airflow", "Linux", "PyInstaller"]
+      "name": "ML Engineering",
+      "keywords": [
+        "ML System Design",
+        "Technical Discovery",
+        "Experiment Design",
+        "Stakeholder Management"
+      ]
     }
   ],
   "выступления": [
@@ -128,16 +146,6 @@
       "courses": ["Авиационная и ракетно-космическая теплотехника"]
     },
     {
-      "institution": "Московский Авиационный Институт",
-      "location": "Москва, Россия",
-      "url": "https://mai.ru/",
-      "area": "Лингвистика",
-      "studyType": "специалитет",
-      "startDate": "2005-09",
-      "endDate": "2008-05",
-      "courses": ["Перевод и переводоведение"]
-    },
-    {
       "institution": "Яндекс Практикум",
       "location": "Москва, Россия",
       "url": "https://practicum.yandex.ru/",
@@ -156,26 +164,6 @@
       "startDate": "2022-09",
       "endDate": "2023-03",
       "courses": ["Computer Vision"]
-    },
-    {
-      "institution": "Московский Авиационный Институт",
-      "location": "Москва, Россия",
-      "url": "https://mai.ru/",
-      "area": "Deep Learning",
-      "studyType": "повышение квалификации",
-      "startDate": "2021-10",
-      "endDate": "2022-03",
-      "courses": ["Введение в искусственный интеллект и нейросети для авиационных приложений"]
-    },
-    {
-      "institution": "УЦ «Специалист»",
-      "location": "Москва, Россия",
-      "url": "https://www.specialist.ru/",
-      "area": "Анализ данных",
-      "studyType": "повышение квалификации",
-      "startDate": "2024-07",
-      "endDate": "2024-10",
-      "courses": ["Анализ данных на языке SQL"]
     }
   ],
   "языки": [
@@ -185,14 +173,6 @@
     },
     {
       "language": "английский",
-      "fluency": "B2"
-    },
-    {
-      "language": "немецкий",
-      "fluency": "B2"
-    },
-    {
-      "language": "эсперанто",
       "fluency": "B2"
     }
   ]
